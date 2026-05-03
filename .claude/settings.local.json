@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"d:\\\\dev\\\\14_firstpass\\\\01_LP\" -Recurse -Force)",
+      "Bash(Select-Object -Property FullName, PSIsContainer)",
+      "Bash(Sort-Object FullName)",
+      "Bash(Format-Table -AutoSize)",
+      "PowerShell($file = 'd:\\\\dev\\\\14_firstpass\\\\01_LP\\\\src\\\\imports\\\\DivPage-1\\\\DivPage.tsx'; $c = [System.IO.File]::ReadAllText\\($file, [System.Text.Encoding]::UTF8\\); $old = '>QRコードを置くだけ</p>'; $new = '>{content.hero.bullets[0]}</p>'; Write-Host \"Old string exists: $\\($c.Contains\\($old\\)\\)\"; $c2 = $c.Replace\\($old, $new\\); Write-Host \"After replace, old still exists: $\\($c2.Contains\\($old\\)\\)\"; Write-Host \"New string exists: $\\($c2.Contains\\($new\\)\\)\")",
+      "PowerShell($file = 'd:\\\\dev\\\\14_firstpass\\\\01_LP\\\\src\\\\imports\\\\DivPage-1\\\\DivPage.tsx'; $c = [System.IO.File]::ReadAllText\\($file, [System.Text.Encoding]::UTF8\\); Write-Host \"File contains Japanese hero text: $\\($c.Contains\\('>QRコードを置くだけ</p>'\\)\\)\"; \\(Get-Item $file\\).LastWriteTime)",
+      "PowerShell($test = '>{content.hero.bullets[0]}</p>'; Write-Host \"Test string: $test\"; Write-Host \"Length: $\\($test.Length\\)\")"
+    ]
+  }
+}
