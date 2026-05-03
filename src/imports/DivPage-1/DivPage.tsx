@@ -4077,7 +4077,7 @@ function H() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="h2">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[20px] w-full">
-        <p className="leading-[30px]">ハヤパスのデモを体験してみましょう！</p>
+        <p className="leading-[30px]">{content.demo.heading}</p>
       </div>
     </div>
   );
@@ -4340,7 +4340,7 @@ function H2Mb() {
   return (
     <div className="content-stretch flex flex-col items-start pb-[0.91px] relative shrink-0 w-full" data-name="h2.mb-4">
       <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#2b2c2f] text-[16px] tracking-[0.32px] w-full">
-        <p className="leading-[24px]">お知らせ</p>
+        <p className="leading-[24px]">{content.announcements.sectionTitle}</p>
       </div>
     </div>
   );
@@ -6871,10 +6871,10 @@ function P1() {
   return (
     <div className="content-stretch flex flex-col font-normal items-start leading-[0] mb-[-0.6px] pb-[6.6px] relative shrink-0 text-[#4a4a4a] text-[16px] tracking-[0.8px] w-full whitespace-nowrap" data-name="p">
       <div className="flex flex-col justify-center mb-[-6.6px] relative shrink-0">
-        <p className="leading-[22.72px]">ハヤパスASPでは、誰でも簡単に条件入力するだけで、提案時に必要な太陽光・蓄</p>
+        <p className="leading-[22.72px]">{content.demo.popup.description1[0]}</p>
       </div>
       <div className="flex flex-col justify-center mb-[-6.6px] relative shrink-0">
-        <p className="leading-[22.72px]">電池導入効果の算出が可能です。</p>
+        <p className="leading-[22.72px]">{content.demo.popup.description1[1]}</p>
       </div>
     </div>
   );
@@ -6884,10 +6884,10 @@ function P2() {
   return (
     <div className="content-stretch flex flex-col font-normal items-start leading-[0] mb-[-0.6px] pb-[6.59px] relative shrink-0 text-[#4a4a4a] text-[16px] tracking-[0.8px] w-full whitespace-nowrap" data-name="p">
       <div className="flex flex-col justify-center mb-[-6.59px] relative shrink-0">
-        <p className="leading-[22.72px]">こちらのデモ版では「既築20年で太陽光と蓄電池の2点を新設する場合」のシミュレー</p>
+        <p className="leading-[22.72px]">{content.demo.popup.description2[0]}</p>
       </div>
       <div className="flex flex-col justify-center mb-[-6.59px] relative shrink-0">
-        <p className="leading-[22.72px]">ションを作成します。</p>
+        <p className="leading-[22.72px]">{content.demo.popup.description2[1]}</p>
       </div>
     </div>
   );
@@ -6897,7 +6897,7 @@ function P3() {
   return (
     <div className="content-stretch flex flex-col items-start mb-[-0.6px] relative shrink-0 w-full" data-name="p">
       <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#4a4a4a] text-[16px] tracking-[0.8px] w-full">
-        <p className="leading-[22.72px]">実際にデモ画面を触って体験してみましょう！</p>
+        <p className="leading-[22.72px]">{content.demo.popup.description3}</p>
       </div>
     </div>
   );
@@ -7387,7 +7387,7 @@ function DivTtSection2() {
     <div className="relative shrink-0 w-full" data-name="div.tt-section">
       <div className="content-stretch flex flex-col items-start pr-[481px] relative size-full">
         <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[32px] w-full">
-          <p className="leading-[51.2px]">ハヤパスとは？</p>
+          <p className="leading-[51.2px]">{content.about.sectionTitle}</p>
         </div>
       </div>
     </div>
@@ -7399,8 +7399,8 @@ function DivSubTtSection1() {
     <div className="relative shrink-0 w-full" data-name="div.sub-tt-section">
       <div className="content-stretch flex flex-col items-start pr-[481px] pt-[17.9px] relative size-full">
         <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#3bbab0] text-[24px] w-full">
-          <p className="leading-[43.2px] mb-0">行列は、店の実力の証明です。</p>
-          <p className="leading-[43.2px]">でも、並んでいる時間は双方にとって損失でもあります。</p>
+          <p className="leading-[43.2px] mb-0">{content.about.subTitle[0]}</p>
+          <p className="leading-[43.2px]">{content.about.subTitle[1]}</p>
         </div>
       </div>
     </div>
@@ -7411,10 +7411,10 @@ function P4() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="p">
       <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[16px] w-full">
-        <p className="leading-[28.8px] mb-0">ハヤパスは、QRコードを1枚置くだけで、</p>
-        <p className="leading-[28.8px] mb-0">その行列を収益に変える完全成果報酬型のサービスです。</p>
-        <p className="leading-[28.8px] mb-0">アプリ不要。月額費用ゼロ。初期費用ゼロ。</p>
-        <p className="leading-[28.8px]">売れた金額の25%だけいただきます。</p>
+        <p className="leading-[28.8px] mb-0">{content.about.description[0]}</p>
+        <p className="leading-[28.8px] mb-0">{content.about.description[1]}</p>
+        <p className="leading-[28.8px] mb-0">{content.about.description[2]}</p>
+        <p className="leading-[28.8px]">{content.about.description[3]}</p>
       </div>
     </div>
   );
@@ -7424,8 +7424,8 @@ function P5() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="p">
       <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[16px] w-full">
-        <p className="leading-[28.8px] mb-0">飲食店・整骨院・クリニック・カフェ・スイーツ店など</p>
-        <p className="leading-[28.8px]">あらゆる業種の「待ち時間」を価値に変えます。</p>
+        <p className="leading-[28.8px] mb-0">{content.about.description2[0]}</p>
+        <p className="leading-[28.8px]">{content.about.description2[1]}</p>
       </div>
     </div>
   );
@@ -7469,10 +7469,10 @@ function DivSmallTt() {
   return (
     <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-name="div.small-tt">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[0px] text-center whitespace-nowrap">
-        <p className="leading-[35.2px] mb-0 text-[22px]">並んでいる時間を収益に変える、</p>
+        <p className="leading-[35.2px] mb-0 text-[22px]">{content.painPoints.cards[0]}</p>
         <p className="text-[22px]">
-          <span className="leading-[35.2px] text-[#614bc3]">店舗向けファストパスサービス</span>
-          <span className="leading-[35.2px] text-[#383838]">です。</span>
+          <span className="leading-[35.2px] text-[#614bc3]">{content.painPoints.cards[1]}</span>
+          <span className="leading-[35.2px] text-[#383838]">{content.painPoints.cards[2]}</span>
         </p>
       </div>
     </div>
@@ -7493,8 +7493,8 @@ function P6() {
   return (
     <div className="content-stretch flex flex-col items-start max-w-[500px] relative shrink-0 w-full" data-name="p">
       <div className="content-stretch flex items-start relative shrink-0 w-full" data-name="Component 15">
-        <a className="cursor-pointer flex flex-[1_0_0] flex-col font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[10px]" href="https://speakerdeck.com/satoru_higuchi/2023nian-tai-yang-guang-xu-dian-chi-fan-mai-dan-dang-zhe-yi-shi-diao-cha-repoto-tai-yang-guang-xu-dian-chi-fan-mai-woxing-uying-ye-dan-dang-zhe-noyue-7ge-ga-jing-ji-xiao-guo-noshi-suan-niku-shou-yi-shi-ari" target="_blank">
-          <p className="leading-[16px] mb-0">※1…2024年 飲食店待ち時間実態調査 - 週末の行列待ち時間は平均42分（自社調べ）</p>
+        <a className="cursor-pointer flex flex-[1_0_0] flex-col font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[10px]" href={urls.blog} target="_blank">
+          <p className="leading-[16px] mb-0">{content.flow.footnotes[0]}</p>
         </a>
       </div>
     </div>
@@ -7505,10 +7505,8 @@ function P7() {
   return (
     <div className="content-stretch flex flex-col items-start max-w-[500px] relative shrink-0 w-full" data-name="p">
       <div className="content-stretch flex items-start relative shrink-0 w-full" data-name="Component 15">
-        <a className="flex flex-[1_0_0] flex-col font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[0px]" href="https://speakerdeck.com/satoru_higuchi/2023nian-tai-yang-guang-xu-dian-chi-fan-mai-dan-dang-zhe-yi-shi-diao-cha-repoto-tai-yang-guang-xu-dian-chi-fan-mai-woxing-uying-ye-dan-dang-zhe-noyue-7ge-ga-jing-ji-xiao-guo-noshi-suan-niku-shou-yi-shi-ari" target="_blank">
-          <p className="cursor-pointer leading-[16px] text-[10px]" role="link" tabIndex="0">
-            ※2…完全成果報酬型のため、売上ゼロ月はご請求ゼロ。初期費用・月額費用は一切不要です。
-          </p>
+        <a className="flex flex-[1_0_0] flex-col font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[0px]" href={urls.price} target="_blank">
+          <p className="cursor-pointer leading-[16px] text-[10px]" role="link" tabIndex="0">{content.flow.footnotes[1]}</p>
         </a>
       </div>
     </div>
@@ -7549,7 +7547,7 @@ function DivTtSection3() {
   return (
     <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-name="div.tt-section">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[32px] text-center whitespace-nowrap">
-        <p className="leading-[51.2px]">料金プラン</p>
+        <p className="leading-[51.2px]">{content.serviceLineup.sectionTitle2}</p>
       </div>
     </div>
   );
@@ -7559,8 +7557,8 @@ function P8() {
   return (
     <div className="content-stretch flex flex-col items-center pt-[1.405px] relative shrink-0 w-full" data-name="p">
       <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[16px] text-center whitespace-nowrap">
-        <p className="leading-[28.8px] mb-0">初期費用・月額費用はすべて無料。</p>
-        <p className="leading-[28.8px]">ファストパスが売れた金額の25%のみいただきます。売れなければ、完全無料。</p>
+        <p className="leading-[28.8px] mb-0">{content.serviceLineup.description2[0]}</p>
+        <p className="leading-[28.8px]">{content.serviceLineup.description2[1]}</p>
       </div>
     </div>
   );
@@ -7572,7 +7570,7 @@ function PTopTt() {
       <div className="flex flex-col items-center size-full">
         <div className="content-stretch flex flex-col items-center pb-[23px] pt-[31px] px-[16px] relative size-full">
           <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[20px] text-center text-white whitespace-nowrap">
-            <p className="leading-[32px]">ハヤパス スタンダード</p>
+            <p className="leading-[32px]">{content.serviceLineup.plans[0].name}</p>
           </div>
         </div>
       </div>
@@ -7584,7 +7582,7 @@ function PSmall() {
   return (
     <div className="bg-white content-stretch flex flex-col items-center relative shrink-0 w-full" data-name="p.small">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#3bbab0] text-[16px] text-center whitespace-nowrap">
-        <p className="leading-[22.4px]">こんな方にオススメ</p>
+        <p className="leading-[22.4px]">{content.serviceLineup.plans[3].tagline}</p>
       </div>
     </div>
   );
@@ -7594,7 +7592,7 @@ function PMedium() {
   return (
     <div className="bg-white content-stretch flex flex-col items-center relative shrink-0 w-full" data-name="p.medium">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[13px] text-center whitespace-nowrap">
-        <p className="leading-[23.4px]">工務店・販売店・商社</p>
+        <p className="leading-[23.4px]">{content.serviceLineup.plans[0].recommendedFor}</p>
       </div>
     </div>
   );
@@ -7604,8 +7602,8 @@ function PDes() {
   return (
     <div className="bg-white content-stretch flex flex-col items-center relative shrink-0 w-full" data-name="p.des">
       <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[13px] text-center whitespace-nowrap">
-        <p className="leading-[23.4px] mb-0">最大5名まで（管理者機能なし）</p>
-        <p className="leading-[23.4px]">保存世帯数無制限</p>
+        <p className="leading-[23.4px] mb-0">{content.serviceLineup.plans[0].features[0]}</p>
+        <p className="leading-[23.4px]">{content.serviceLineup.plans[0].features[1]}</p>
       </div>
     </div>
   );
@@ -7627,7 +7625,7 @@ function B() {
   return (
     <div className="bg-white content-stretch flex flex-col items-center relative shrink-0 w-full" data-name="b">
       <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#333] text-[14px] text-center whitespace-nowrap">
-        <p className="leading-[22.4px]">診断回数無制限</p>
+        <p className="leading-[22.4px]">{content.features.cards[0].title}</p>
       </div>
     </div>
   );
@@ -7645,7 +7643,7 @@ function Span31() {
   return (
     <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white content-stretch flex flex-col items-center left-[calc(50%+66.83px)] top-[calc(50%-9.72px)]" data-name="span">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[15px] text-center whitespace-nowrap">
-        <p className="leading-[24px]">円/月</p>
+        <p className="leading-[24px]">{content.serviceLineup.plans[2].priceUnit}</p>
       </div>
     </div>
   );
@@ -7656,7 +7654,7 @@ function DivNumberPrice() {
     <div className="bg-white h-[100.61px] relative shrink-0 w-full" data-name="div.number-price">
       <div aria-hidden="true" className="absolute border-[#d7d7d7] border-b border-dashed border-t inset-0 pointer-events-none" />
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-bold h-[32px] justify-center leading-[0] left-[calc(50%-17.72px)] text-[#614bc3] text-[32px] text-center top-[calc(50%-13.81px)] w-[123.891px]">
-        <p className="leading-[31.2px]">150,000</p>
+        <p className="leading-[31.2px]">{content.serviceLineup.plans[0].price}</p>
       </div>
       <BMargin />
       <Span31 />
@@ -7670,7 +7668,7 @@ function Li10() {
       <div className="content-stretch flex flex-col items-start pl-[13px] relative size-full">
         <div className="absolute bg-[#333] left-0 rounded-[2px] size-[4px] top-[10px]" data-name="::before" />
         <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[14px] whitespace-nowrap">
-          <p className="leading-[22.4px]">チャットサポート</p>
+          <p className="leading-[22.4px]">{content.serviceLineup.plans[3].support[0]}</p>
         </div>
       </div>
     </div>
@@ -7683,7 +7681,7 @@ function Li11() {
       <div className="content-stretch flex flex-col items-start pl-[13px] relative size-full">
         <div className="absolute bg-[#333] left-0 rounded-[2px] size-[4px] top-[10px]" data-name="::before" />
         <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[14px] whitespace-nowrap">
-          <p className="leading-[22.4px]">オンラインFAQ/マニュアル</p>
+          <p className="leading-[22.4px]">{content.serviceLineup.plans[3].support[1]}</p>
         </div>
       </div>
     </div>
@@ -7696,7 +7694,7 @@ function Li12() {
       <div className="content-stretch flex flex-col items-start pl-[13px] relative size-full">
         <div className="absolute bg-[#333] left-0 rounded-[2px] size-[4px] top-[10px]" data-name="::before" />
         <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[14px] whitespace-nowrap">
-          <p className="leading-[22.4px]">WEB勉強会</p>
+          <p className="leading-[22.4px]">{content.serviceLineup.plans[3].support[2]}</p>
         </div>
       </div>
     </div>
@@ -7721,7 +7719,7 @@ function PLinkMore() {
       <div className="bg-white content-stretch flex items-start justify-center max-w-[206px] p-px relative rounded-[8px] shrink-0 w-full" data-name="Component 16">
         <div aria-hidden="true" className="absolute border border-[#bee840] border-solid inset-0 pointer-events-none rounded-[8px]" />
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[16px] text-black text-center whitespace-nowrap" href={urls.aspServiceDoc} target="_blank">
-          <p className="cursor-pointer leading-[48px]">詳しい資料をDLする</p>
+          <p className="cursor-pointer leading-[48px]">{content.successCases.readMoreLink}</p>
         </a>
       </div>
     </div>
@@ -7751,7 +7749,7 @@ function PTopTt1() {
       <div className="flex flex-col items-center size-full">
         <div className="content-stretch flex flex-col items-center pb-[23px] pt-[31px] px-[16px] relative size-full">
           <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[20px] text-center text-white whitespace-nowrap">
-            <p className="leading-[32px]">Standard</p>
+            <p className="leading-[32px]">{content.serviceLineup.plans[1].name}</p>
           </div>
         </div>
       </div>
@@ -7763,7 +7761,7 @@ function PSmall1() {
   return (
     <div className="bg-white content-stretch flex flex-col items-center relative shrink-0 w-full" data-name="p.small">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#3bbab0] text-[16px] text-center whitespace-nowrap">
-        <p className="leading-[22.4px]">こんな方にオススメ</p>
+        <p className="leading-[22.4px]">{content.serviceLineup.plans[2].tagline}</p>
       </div>
     </div>
   );
@@ -7773,7 +7771,7 @@ function PMedium1() {
   return (
     <div className="bg-white content-stretch flex flex-col items-center relative shrink-0 w-full" data-name="p.medium">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[18px] text-center whitespace-nowrap">
-        <p className="leading-[23.4px]">Excelデータ提供有り</p>
+        <p className="leading-[23.4px]">{content.serviceLineup.plans[1].recommendedFor}</p>
       </div>
     </div>
   );
@@ -7783,8 +7781,8 @@ function PDes1() {
   return (
     <div className="bg-white h-[46.81px] relative shrink-0 w-full" data-name="p.des">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-normal h-[47px] justify-center leading-[0] left-[calc(50%+0.1px)] text-[#383838] text-[16px] text-center top-[22.7px] w-[241.97px]">
-        <p className="leading-[23.4px] mb-0">最大30名まで（管理者機能あり）</p>
-        <p className="leading-[23.4px]">保存世帯数無制限</p>
+        <p className="leading-[23.4px] mb-0">{content.serviceLineup.plans[1].features[0]}</p>
+        <p className="leading-[23.4px]">{content.serviceLineup.plans[1].features[1]}</p>
       </div>
     </div>
   );
@@ -7806,7 +7804,7 @@ function B1() {
   return (
     <div className="bg-white content-stretch flex flex-col items-center relative shrink-0 w-full" data-name="b">
       <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#333] text-[14px] text-center whitespace-nowrap">
-        <p className="leading-[22.4px]">診断回数無制限</p>
+        <p className="leading-[22.4px]">{content.features.cards[0].title}</p>
       </div>
     </div>
   );
@@ -7824,7 +7822,7 @@ function Span32() {
   return (
     <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white content-stretch flex flex-col items-center left-[calc(50%+66.83px)] top-[calc(50%-9.72px)]" data-name="span">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[15px] text-center whitespace-nowrap">
-        <p className="leading-[24px]">円/月</p>
+        <p className="leading-[24px]">{content.serviceLineup.plans[1].priceUnit}</p>
       </div>
     </div>
   );
@@ -7835,7 +7833,7 @@ function DivNumberPrice1() {
     <div className="bg-white h-[100.61px] relative shrink-0 w-full" data-name="div.number-price">
       <div aria-hidden="true" className="absolute border-[#d7d7d7] border-b border-dashed border-t inset-0 pointer-events-none" />
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-bold h-[32px] justify-center leading-[0] left-[calc(50%-17.72px)] text-[#614bc3] text-[32px] text-center top-[calc(50%-13.81px)] w-[123.891px]">
-        <p className="leading-[31.2px]">300,000</p>
+        <p className="leading-[31.2px]">{content.serviceLineup.plans[1].price}</p>
       </div>
       <BMargin1 />
       <Span32 />
@@ -7849,7 +7847,7 @@ function Li13() {
       <div className="content-stretch flex flex-col items-start pl-[13px] relative size-full">
         <div className="absolute bg-[#333] left-0 rounded-[2px] size-[4px] top-[10px]" data-name="::before" />
         <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[14px] whitespace-nowrap">
-          <p className="leading-[22.4px]">チャットサポート</p>
+          <p className="leading-[22.4px]">{content.serviceLineup.plans[2].support[0]}</p>
         </div>
       </div>
     </div>
@@ -7862,7 +7860,7 @@ function Li14() {
       <div className="content-stretch flex flex-col items-start pl-[13px] relative size-full">
         <div className="absolute bg-[#333] left-0 rounded-[2px] size-[4px] top-[10px]" data-name="::before" />
         <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[14px] whitespace-nowrap">
-          <p className="leading-[22.4px]">オンラインFAQ/マニュアル</p>
+          <p className="leading-[22.4px]">{content.serviceLineup.plans[2].support[1]}</p>
         </div>
       </div>
     </div>
@@ -7875,7 +7873,7 @@ function Li15() {
       <div className="content-stretch flex flex-col items-start pl-[13px] relative size-full">
         <div className="absolute bg-[#333] left-0 rounded-[2px] size-[4px] top-[10px]" data-name="::before" />
         <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[14px] whitespace-nowrap">
-          <p className="leading-[22.4px]">WEB勉強会</p>
+          <p className="leading-[22.4px]">{content.serviceLineup.plans[2].support[2]}</p>
         </div>
       </div>
     </div>
@@ -7900,7 +7898,7 @@ function PLinkMore1() {
       <div className="bg-white content-stretch flex items-start justify-center max-w-[206px] p-px relative rounded-[8px] shrink-0 w-full" data-name="Component 16">
         <div aria-hidden="true" className="absolute border border-[#bee840] border-solid inset-0 pointer-events-none rounded-[8px]" />
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[16px] text-black text-center whitespace-nowrap" href={urls.aspServiceDoc} target="_blank">
-          <p className="cursor-pointer leading-[48px]">詳しい資料をDLする</p>
+          <p className="cursor-pointer leading-[48px]">{content.successCases.readMoreLink}</p>
         </a>
       </div>
     </div>
@@ -7912,7 +7910,7 @@ function DivToolTip() {
     <div className="absolute bg-white content-stretch flex flex-col items-center left-[32px] p-[10px] right-[40px] rounded-[40px] top-[-24px]" data-name="div.tool-tip">
       <div aria-hidden="true" className="absolute border-2 border-[#ff4858] border-solid inset-0 pointer-events-none rounded-[40px]" />
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#ff4858] text-[18px] text-center whitespace-nowrap">
-        <p className="leading-[28.8px]">人気の定番プラン！</p>
+        <p className="leading-[28.8px]">{content.serviceLineup.popularPlanLabel}</p>
       </div>
     </div>
   );
@@ -7942,7 +7940,7 @@ function PTopTt2() {
       <div className="flex flex-col items-center size-full">
         <div className="content-stretch flex flex-col items-center pb-[23px] pt-[31px] px-[16px] relative size-full">
           <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[20px] text-center text-white whitespace-nowrap">
-            <p className="leading-[32px]">Unlimited</p>
+            <p className="leading-[32px]">{content.serviceLineup.plans[2].name}</p>
           </div>
         </div>
       </div>
@@ -7954,7 +7952,7 @@ function PSmall2() {
   return (
     <div className="bg-white content-stretch flex flex-col items-center relative shrink-0 w-full" data-name="p.small">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#3bbab0] text-[16px] text-center whitespace-nowrap">
-        <p className="leading-[22.4px]">こんな方にオススメ</p>
+        <p className="leading-[22.4px]">{content.serviceLineup.plans[1].tagline}</p>
       </div>
     </div>
   );
@@ -7964,7 +7962,7 @@ function PMedium2() {
   return (
     <div className="bg-white content-stretch flex flex-col items-center relative shrink-0 w-full" data-name="p.medium">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[13px] text-center whitespace-nowrap">
-        <p className="leading-[23.4px]">大手販社・商社・住宅会社</p>
+        <p className="leading-[23.4px]">{content.serviceLineup.plans[2].recommendedFor}</p>
       </div>
     </div>
   );
@@ -7974,8 +7972,8 @@ function PDes2() {
   return (
     <div className="bg-white content-stretch flex flex-col items-center relative shrink-0 w-full" data-name="p.des">
       <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[13px] text-center whitespace-nowrap">
-        <p className="leading-[23.4px] mb-0">ユーザー数無制限（管理者機能あり）</p>
-        <p className="leading-[23.4px]">保存世帯数無制限</p>
+        <p className="leading-[23.4px] mb-0">{content.serviceLineup.plans[3].features[0]}</p>
+        <p className="leading-[23.4px]">{content.serviceLineup.plans[3].features[1]}</p>
       </div>
     </div>
   );
@@ -7997,7 +7995,7 @@ function B2() {
   return (
     <div className="bg-white content-stretch flex flex-col items-center relative shrink-0 w-full" data-name="b">
       <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#333] text-[14px] text-center whitespace-nowrap">
-        <p className="leading-[22.4px]">診断回数無制限</p>
+        <p className="leading-[22.4px]">{content.features.cards[0].title}</p>
       </div>
     </div>
   );
@@ -8015,7 +8013,7 @@ function Span33() {
   return (
     <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white content-stretch flex flex-col items-center left-[calc(50%+66.83px)] top-[calc(50%-9.72px)]" data-name="span">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[15px] text-center whitespace-nowrap">
-        <p className="leading-[24px]">円/月</p>
+        <p className="leading-[24px]">{content.serviceLineup.plans[0].priceUnit}</p>
       </div>
     </div>
   );
@@ -8026,7 +8024,7 @@ function DivNumberPrice2() {
     <div className="bg-white h-[100.61px] relative shrink-0 w-full" data-name="div.number-price">
       <div aria-hidden="true" className="absolute border-[#d7d7d7] border-b border-dashed border-t inset-0 pointer-events-none" />
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-bold h-[32px] justify-center leading-[0] left-[calc(50%-17.72px)] text-[#614bc3] text-[32px] text-center top-[calc(50%-13.81px)] w-[123.891px]">
-        <p className="leading-[31.2px]">600,000</p>
+        <p className="leading-[31.2px]">{content.serviceLineup.plans[2].price}</p>
       </div>
       <BMargin2 />
       <Span33 />
@@ -8040,7 +8038,7 @@ function Li16() {
       <div className="content-stretch flex flex-col items-start pl-[13px] relative size-full">
         <div className="absolute bg-[#333] left-0 rounded-[2px] size-[4px] top-[10px]" data-name="::before" />
         <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[14px] whitespace-nowrap">
-          <p className="leading-[22.4px]">チャットサポート</p>
+          <p className="leading-[22.4px]">{content.serviceLineup.plans[1].support[0]}</p>
         </div>
       </div>
     </div>
@@ -8053,7 +8051,7 @@ function Li17() {
       <div className="content-stretch flex flex-col items-start pl-[13px] relative size-full">
         <div className="absolute bg-[#333] left-0 rounded-[2px] size-[4px] top-[10px]" data-name="::before" />
         <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[14px] whitespace-nowrap">
-          <p className="leading-[22.4px]">オンラインFAQ/マニュアル</p>
+          <p className="leading-[22.4px]">{content.serviceLineup.plans[1].support[1]}</p>
         </div>
       </div>
     </div>
@@ -8066,7 +8064,7 @@ function Li18() {
       <div className="content-stretch flex flex-col items-start pl-[13px] relative size-full">
         <div className="absolute bg-[#333] left-0 rounded-[2px] size-[4px] top-[10px]" data-name="::before" />
         <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[14px] whitespace-nowrap">
-          <p className="leading-[22.4px]">WEB勉強会</p>
+          <p className="leading-[22.4px]">{content.serviceLineup.plans[1].support[2]}</p>
         </div>
       </div>
     </div>
@@ -8091,7 +8089,7 @@ function PLinkMore2() {
       <div className="bg-white content-stretch flex items-start justify-center max-w-[206px] p-px relative rounded-[8px] shrink-0 w-full" data-name="Component 16">
         <div aria-hidden="true" className="absolute border border-[#bee840] border-solid inset-0 pointer-events-none rounded-[8px]" />
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[16px] text-black text-center whitespace-nowrap" href={urls.aspServiceDoc} target="_blank">
-          <p className="cursor-pointer leading-[48px]">詳しい資料をDLする</p>
+          <p className="cursor-pointer leading-[48px]">{content.successCases.readMoreLink}</p>
         </a>
       </div>
     </div>
@@ -8121,7 +8119,7 @@ function PTopTt3() {
       <div className="flex flex-col items-center size-full">
         <div className="content-stretch flex flex-col items-center pb-[23px] pt-[31px] px-[16px] relative size-full">
           <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[20px] text-center text-white whitespace-nowrap">
-            <p className="leading-[32px]">Unlimited+</p>
+            <p className="leading-[32px]">{content.serviceLineup.plans[3].name}</p>
           </div>
         </div>
       </div>
@@ -8133,7 +8131,7 @@ function PSmall3() {
   return (
     <div className="bg-white content-stretch flex flex-col items-center relative shrink-0 w-full" data-name="p.small">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#3bbab0] text-[16px] text-center whitespace-nowrap">
-        <p className="leading-[22.4px]">こんな方にオススメ</p>
+        <p className="leading-[22.4px]">{content.serviceLineup.plans[0].tagline}</p>
       </div>
     </div>
   );
@@ -8143,8 +8141,8 @@ function PMedium3() {
   return (
     <div className="bg-white content-stretch flex flex-col items-center relative shrink-0 w-full" data-name="p.medium">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[13px] text-center whitespace-nowrap">
-        <p className="leading-[23.4px] mb-0">取引先にID付与したい大手メーカー・</p>
-        <p className="leading-[23.4px]">商社・卸や電力・ガス会社</p>
+        <p className="leading-[23.4px] mb-0">{content.serviceLineup.plans[3].recommendedFor.split("・")[0]}・</p>
+        <p className="leading-[23.4px]">{content.serviceLineup.plans[3].recommendedFor.split("・")[1]}</p>
       </div>
     </div>
   );
@@ -8154,8 +8152,8 @@ function PDes3() {
   return (
     <div className="bg-white content-stretch flex flex-col items-center relative shrink-0 w-full" data-name="p.des">
       <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[13px] text-center whitespace-nowrap">
-        <p className="leading-[23.4px] mb-0">ユーザー数無制限（管理者機能あり）</p>
-        <p className="leading-[23.4px]">保存世帯数無制限</p>
+        <p className="leading-[23.4px] mb-0">{content.serviceLineup.plans[2].features[0]}</p>
+        <p className="leading-[23.4px]">{content.serviceLineup.plans[2].features[1]}</p>
       </div>
     </div>
   );
@@ -8178,7 +8176,7 @@ function B3() {
     <div className="bg-white relative shrink-0 w-full" data-name="b">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-center relative size-full">
         <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#333] text-[14px] text-center whitespace-nowrap">
-          <p className="leading-[22.4px]">診断回数無制限</p>
+          <p className="leading-[22.4px]">{content.features.cards[0].title}</p>
         </div>
       </div>
     </div>
@@ -8190,7 +8188,7 @@ function DivNumberPrice3() {
     <div className="bg-white content-stretch flex flex-col gap-[9.71px] items-center justify-center pb-[15.99px] pt-[20.5px] relative shrink-0 w-full" data-name="div.number-price">
       <div aria-hidden="true" className="absolute border-[#d7d7d7] border-b border-dashed border-t inset-0 pointer-events-none" />
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#614bc3] text-[32px] text-center whitespace-nowrap">
-        <p className="leading-[31.2px]">個別見積</p>
+        <p className="leading-[31.2px]">{content.serviceLineup.estimateLabel}</p>
       </div>
       <B3 />
     </div>
@@ -8203,7 +8201,7 @@ function Li19() {
       <div className="content-stretch flex flex-col items-start pl-[13px] relative size-full">
         <div className="absolute bg-[#333] left-0 rounded-[2px] size-[4px] top-[10px]" data-name="::before" />
         <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[14px] whitespace-nowrap">
-          <p className="leading-[22.4px]">チャットサポート</p>
+          <p className="leading-[22.4px]">{content.serviceLineup.plans[0].support[0]}</p>
         </div>
       </div>
     </div>
@@ -8216,7 +8214,7 @@ function Li20() {
       <div className="content-stretch flex flex-col items-start pl-[13px] relative size-full">
         <div className="absolute bg-[#333] left-0 rounded-[2px] size-[4px] top-[10px]" data-name="::before" />
         <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[14px] whitespace-nowrap">
-          <p className="leading-[22.4px]">オンラインFAQ/マニュアル</p>
+          <p className="leading-[22.4px]">{content.serviceLineup.plans[0].support[1]}</p>
         </div>
       </div>
     </div>
@@ -8229,7 +8227,7 @@ function Li21() {
       <div className="content-stretch flex flex-col items-start pl-[13px] relative size-full">
         <div className="absolute bg-[#333] left-0 rounded-[2px] size-[4px] top-[10px]" data-name="::before" />
         <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[14px] whitespace-nowrap">
-          <p className="leading-[22.4px]">WEB勉強会</p>
+          <p className="leading-[22.4px]">{content.serviceLineup.plans[0].support[2]}</p>
         </div>
       </div>
     </div>
@@ -8254,7 +8252,7 @@ function PLinkMore3() {
       <div className="bg-white content-stretch flex items-start justify-center max-w-[206px] p-px relative rounded-[8px] shrink-0 w-full" data-name="Component 16">
         <div aria-hidden="true" className="absolute border border-[#bee840] border-solid inset-0 pointer-events-none rounded-[8px]" />
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[16px] text-black text-center whitespace-nowrap" href={urls.aspServiceDoc} target="_blank">
-          <p className="cursor-pointer leading-[48px]">詳しい資料をDLする</p>
+          <p className="cursor-pointer leading-[48px]">{content.successCases.readMoreLink}</p>
         </a>
       </div>
     </div>
@@ -8298,9 +8296,7 @@ function DivWrap4() {
       <a className="bg-[#ff4858] content-stretch cursor-pointer flex items-start justify-center max-w-[414px] p-px relative rounded-[8px] shrink-0 w-[414px]" href={urls.price} target="_blank" data-name="Component 1">
         <div aria-hidden="true" className="absolute border border-[#ff4858] border-solid inset-0 pointer-events-none rounded-[8px]" />
         <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[0px] text-center text-white whitespace-nowrap">
-          <p className="cursor-pointer leading-[71px] text-[18px]" role="link" tabIndex="0">
-            料金について詳しく見る
-          </p>
+          <p className="cursor-pointer leading-[71px] text-[18px]" role="link" tabIndex="0">{content.serviceLineup.viewMoreButton}</p>
         </div>
         <div className="absolute h-[12px] right-[31px] top-[30.5px] w-[6px]" data-name="::after">
           <div className="absolute bg-clip-padding border-0 border-[transparent] border-solid inset-0 overflow-hidden pointer-events-none">
@@ -8324,7 +8320,7 @@ function DivTtSection4() {
   return (
     <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-name="div.tt-section">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[32px] text-center whitespace-nowrap">
-        <p className="leading-[51.2px]">こんなお悩みありませんか？</p>
+        <p className="leading-[51.2px]">{content.painPoints.sectionTitle}</p>
       </div>
     </div>
   );
@@ -8344,9 +8340,9 @@ function DivTitle25() {
   return (
     <div className="content-stretch flex flex-col items-center pb-[0.59px] relative shrink-0 w-full" data-name="div.title">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[18px] text-center whitespace-nowrap">
-        <p className="leading-[28.8px] mb-0">太陽光・蓄電池の提案回数は</p>
-        <p className="leading-[28.8px] mb-0">急増するが手書きやExcelでは</p>
-        <p className="leading-[28.8px]">対応しきれない。</p>
+        <p className="leading-[28.8px] mb-0">{content.painPoints.cards[0].substring(0, 14)}</p>
+        <p className="leading-[28.8px] mb-0">{content.painPoints.cards[0].substring(14, 31)}</p>
+        <p className="leading-[28.8px]">{content.painPoints.cards[0].substring(31)}</p>
       </div>
     </div>
   );
@@ -8357,7 +8353,7 @@ function DivCat() {
     <div className="absolute bg-white content-stretch flex flex-col items-center left-[28.83px] max-w-[257px] pb-[11.91px] pt-[11.5px] px-[12px] right-[28.83px] rounded-[40px] top-[-24px]" data-name="div.cat">
       <div aria-hidden="true" className="absolute border-2 border-[#3bbab0] border-solid inset-0 pointer-events-none rounded-[40px]" />
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[14px] text-center whitespace-nowrap">
-        <p className="leading-[22.4px]">メーカー・商社・販売施工店</p>
+        <p className="leading-[22.4px]">{content.industry.description.split("・")[0]}</p>
       </div>
     </div>
   );
@@ -8400,9 +8396,9 @@ function DivTitle26() {
   return (
     <div className="content-stretch flex flex-col items-center pb-[0.59px] relative shrink-0 w-full" data-name="div.title">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[18px] text-center whitespace-nowrap">
-        <p className="leading-[28.8px] mb-0">太陽光義務化などで新築向け</p>
-        <p className="leading-[28.8px] mb-0">太陽光・蓄電池の提案を強化したいが</p>
-        <p className="leading-[28.8px]">良い提案ツールがない。</p>
+        <p className="leading-[28.8px] mb-0">{content.painPoints.cards[1].substring(0, 13)}</p>
+        <p className="leading-[28.8px] mb-0">{content.painPoints.cards[1].substring(13, 33)}</p>
+        <p className="leading-[28.8px]">{content.painPoints.cards[1].substring(33)}</p>
       </div>
     </div>
   );
@@ -8413,7 +8409,7 @@ function DivCat1() {
     <div className="absolute bg-white content-stretch flex flex-col items-center left-[28.82px] max-w-[257px] pb-[11.91px] pt-[11.5px] px-[12px] right-[28.84px] rounded-[40px] top-[-24px]" data-name="div.cat">
       <div aria-hidden="true" className="absolute border-2 border-[#3bbab0] border-solid inset-0 pointer-events-none rounded-[40px]" />
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[14px] text-center whitespace-nowrap">
-        <p className="leading-[22.4px]">住宅メーカー・工務店</p>
+        <p className="leading-[22.4px]">{content.industry.description.split("・")[1]}</p>
       </div>
     </div>
   );
@@ -8456,9 +8452,9 @@ function DivTitle27() {
   return (
     <div className="content-stretch flex flex-col items-center pb-[0.59px] relative shrink-0 w-full" data-name="div.title">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[18px] text-center whitespace-nowrap">
-        <p className="leading-[28.8px] mb-0">電気代高騰対策で太陽光・蓄電池を拡</p>
-        <p className="leading-[28.8px] mb-0">販したいが簡単な提案ツールがない。</p>
-        <p className="leading-[28.8px]">Excelでは限界を感じる。</p>
+        <p className="leading-[28.8px] mb-0">{content.painPoints.cards[2].substring(0, 18)}</p>
+        <p className="leading-[28.8px] mb-0">{content.painPoints.cards[2].substring(18, 36)}</p>
+        <p className="leading-[28.8px]">{content.painPoints.cards[2].substring(36)}</p>
       </div>
     </div>
   );
@@ -8469,7 +8465,7 @@ function DivCat2() {
     <div className="absolute bg-white content-stretch flex flex-col items-center left-[28.83px] max-w-[257px] pb-[11.91px] pt-[11.5px] px-[12px] right-[28.83px] rounded-[40px] top-[-24px]" data-name="div.cat">
       <div aria-hidden="true" className="absolute border-2 border-[#3bbab0] border-solid inset-0 pointer-events-none rounded-[40px]" />
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[14px] text-center whitespace-nowrap">
-        <p className="leading-[22.4px]">電力・ガス会社</p>
+        <p className="leading-[22.4px]">{content.industry.description.split("・")[2]}</p>
       </div>
     </div>
   );
@@ -8547,14 +8543,14 @@ function DivTtSection5() {
       <div className="flex flex-row items-center justify-center size-full">
         <div className="content-stretch flex items-center justify-center pr-[76px] relative size-full">
           <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[32px] text-center whitespace-nowrap">
-            <p className="leading-[51.2px]">その問題、</p>
+            <p className="leading-[51.2px]">{content.features.sectionTitleWithHighlight.prefix}</p>
           </div>
           <SpanAddLogo />
           <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[0px] text-center whitespace-nowrap">
             <p className="text-[32px]">
-              <span className="leading-[51.2px] text-[#383838]">が</span>
-              <span className="leading-[51.2px] text-[#3bbab0]">解決</span>
-              <span className="leading-[51.2px] text-[#383838]">します！</span>
+              <span className="leading-[51.2px] text-[#383838]">{content.features.sectionTitleWithHighlight.suffix}</span>
+              <span className="leading-[51.2px] text-[#3bbab0]">{content.features.sectionTitleWithHighlight.suffixHighlight}</span>
+              <span className="leading-[51.2px] text-[#383838]">{content.features.sectionTitleWithHighlight.suffix2}</span>
             </p>
           </div>
         </div>
@@ -8585,10 +8581,7 @@ function DivTitle28() {
   return (
     <div className="content-stretch flex flex-col items-center pb-[0.59px] relative shrink-0 w-full" data-name="div.title">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#3bbab0] text-[0px] text-center whitespace-nowrap">
-        <p className="mb-0 text-[18px]">
-          <span className="leading-[28.8px] text-[#3bbab0]">たった15秒</span>
-          <span className="leading-[28.8px] text-[#383838]">でお客様にわかりやすいグ</span>
-        </p>
+        <p className="mb-0 text-[18px]"><span className="leading-[28.8px] text-[#3bbab0]">{content.cta.subTitle}</span><span className="leading-[28.8px] text-[#383838]">でお客様にわかりやすいグ</span></p>
         <p className="leading-[28.8px] mb-0 text-[#383838] text-[18px]">ラフ付き提案書が自動作成されるから</p>
         <p className="leading-[28.8px] text-[#383838] text-[18px]">営業効率と成約率がアップ！</p>
       </div>
@@ -8601,7 +8594,7 @@ function DivCat3() {
     <div className="absolute bg-white content-stretch flex flex-col items-center left-[28.83px] max-w-[257px] pb-[11.91px] pt-[11.5px] px-[12px] right-[28.83px] rounded-[40px] top-[-24px]" data-name="div.cat">
       <div aria-hidden="true" className="absolute border-2 border-[#3bbab0] border-solid inset-0 pointer-events-none rounded-[40px]" />
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[14px] text-center whitespace-nowrap">
-        <p className="leading-[22.4px]">メーカー・商社・販売施工店</p>
+        <p className="leading-[22.4px]">{content.industry.description.split("・")[0]}</p>
       </div>
     </div>
   );
@@ -8656,15 +8649,9 @@ function DivTitle29() {
   return (
     <div className="content-stretch flex flex-col items-center pb-[0.59px] relative shrink-0 w-full" data-name="div.title">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[0px] text-center whitespace-nowrap">
-        <p className="leading-[28.8px] mb-0 text-[18px]">新築向け35年でも既築向け10-15年で</p>
-        <p className="mb-0 text-[18px]">
-          <span className="leading-[28.8px] text-[#383838]">も太陽光・蓄電池の経済効果を</span>
-          <span className="leading-[28.8px] text-[#3bbab0]">15秒で</span>
-        </p>
-        <p className="text-[18px]">
-          <span className="leading-[28.8px] text-[#3bbab0]">診断</span>
-          <span className="leading-[28.8px] text-[#383838]">できて他社と差別化が図れる！</span>
-        </p>
+        <p className="leading-[28.8px] mb-0 text-[18px]">{content.features.cards[7].description[0]}</p>
+        <p className="leading-[28.8px] mb-0 text-[18px]">{content.features.cards[7].description[1]}</p>
+        <p className="leading-[28.8px] text-[18px]">{content.features.cards[7].description[2]}</p>
       </div>
     </div>
   );
@@ -8675,7 +8662,7 @@ function DivCat4() {
     <div className="absolute bg-white content-stretch flex flex-col items-center left-[28.82px] max-w-[257px] pb-[11.91px] pt-[11.5px] px-[12px] right-[28.84px] rounded-[40px] top-[-24px]" data-name="div.cat">
       <div aria-hidden="true" className="absolute border-2 border-[#3bbab0] border-solid inset-0 pointer-events-none rounded-[40px]" />
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[14px] text-center whitespace-nowrap">
-        <p className="leading-[22.4px]">住宅メーカー・工務店</p>
+        <p className="leading-[22.4px]">{content.painPoints.categories[1]}</p>
       </div>
     </div>
   );
@@ -8729,20 +8716,9 @@ function DivImage26() {
 function DivTitle30() {
   return (
     <div className="content-stretch flex flex-col font-bold items-center leading-[0] pb-px relative shrink-0 text-[0px] text-center w-full whitespace-nowrap" data-name="div.title">
-      <div className="flex flex-col justify-center mb-[-0.405px] relative shrink-0 text-[#383838]">
-        <p className="text-[18px]">
-          <span className="leading-[28.8px] text-[#383838]">月1回燃料調整費を含めて</span>
-          <span className="leading-[28.8px] text-[#3bbab0]">自動更新さ</span>
-        </p>
-      </div>
-      <div className="flex flex-col justify-center mb-[-0.405px] relative shrink-0 text-[#3bbab0]">
-        <p className="mb-0 text-[18px]">
-          <span className="leading-[28.8px] text-[#3bbab0]">れる最新単価や電気代上昇率を加味</span>
-          <span className="leading-[28.8px] text-[#383838]">し</span>
-        </p>
-        <p className="leading-[28.8px] mb-0 text-[#383838] text-[18px]">て太陽光・蓄電池の経済効果を提案で</p>
-        <p className="leading-[28.8px] text-[#383838] text-[18px]">きるため成約率がアップ！</p>
-      </div>
+      <p className="leading-[28.8px] mb-0 text-[18px] text-[#383838]">{content.features.cards[8].description[0]}</p>
+      <p className="leading-[28.8px] mb-0 text-[18px] text-[#383838]">{content.features.cards[8].description[1]}</p>
+      <p className="leading-[28.8px] text-[18px]"><span className="text-[#3bbab0]">{content.features.cards[8].description[2].substring(0,10)}</span><span className="text-[#383838]">{content.features.cards[8].description[2].substring(10)}</span></p>
     </div>
   );
 }
@@ -8752,7 +8728,7 @@ function DivCat5() {
     <div className="absolute bg-white content-stretch flex flex-col items-center left-[28.83px] max-w-[257px] pb-[11.91px] pt-[11.5px] px-[12px] right-[28.83px] rounded-[40px] top-[-24px]" data-name="div.cat">
       <div aria-hidden="true" className="absolute border-2 border-[#3bbab0] border-solid inset-0 pointer-events-none rounded-[40px]" />
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[14px] text-center whitespace-nowrap">
-        <p className="leading-[22.4px]">電力・ガス会社</p>
+        <p className="leading-[22.4px]">{content.painPoints.categories[2]}</p>
       </div>
     </div>
   );
@@ -8819,11 +8795,11 @@ function DivTtSection6() {
   return (
     <div className="h-[58.2px] relative shrink-0 w-full" data-name="div.tt-section">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-black h-[52px] justify-center leading-[0] left-[calc(50%-77.99px)] text-[32px] text-center text-white top-[32.5px] w-[350.746px]">
-        <p className="leading-[51.2px]">ハヤパスで実現できる</p>
+        <p className="leading-[51.2px]">{content.features.sectionTitle2.substring(0, 10)}</p>
       </div>
       <Span34 />
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-bold h-[52px] justify-center leading-[0] left-[calc(50%+189.54px)] text-[32px] text-center text-white top-[32.5px] w-[128.418px]">
-        <p className="leading-[51.2px]">つの特長</p>
+        <p className="leading-[51.2px]">{content.features.sectionTitle2.substring(11)}</p>
       </div>
     </div>
   );
@@ -8851,15 +8827,9 @@ function P9() {
   return (
     <div className="absolute content-stretch flex flex-col font-normal items-center leading-[0] left-[40px] pb-[0.61px] right-[40px] text-[#383838] text-center top-[258.49px] whitespace-nowrap" data-name="p">
       <div className="flex flex-col justify-center mb-[-0.61px] relative shrink-0 text-[16px]">
-        <p className="leading-[25.6px]">並ばせているだけだった時間を収益化。</p>
+        <p className="leading-[25.6px]">{content.features.cards[3].description[0]}</p>
       </div>
-      <div className="flex flex-col justify-center mb-[-0.61px] relative shrink-0 text-[0px]">
-        <p className="mb-0 text-[16px]">
-          <span className="font-bold leading-[25.6px] text-[#3bbab0]">月150件の利用で</span>
-          <span className="font-normal leading-[25.6px] text-[#383838]">+22万円の</span>
-        </p>
-        <p className="leading-[25.6px] text-[16px]">新収益。追加コストはゼロ。</p>
-      </div>
+      <div className="flex flex-col justify-center mb-[-0.61px] relative shrink-0 text-[0px]"><p className="mb-0 text-[16px]"><span className="font-bold leading-[25.6px] text-[#3bbab0]">{content.features.cards[3].description[1].substring(0, 8)}</span><span className="font-normal leading-[25.6px] text-[#383838]">{content.features.cards[3].description[1].substring(8)}</span></p><p className="leading-[25.6px] text-[16px]">{content.features.cards[3].description[2]}</p></div>
     </div>
   );
 }
@@ -8885,7 +8855,7 @@ function Span35() {
     <div className="-translate-y-1/2 absolute content-stretch flex items-center justify-center left-[5px] right-[-5px] top-[calc(50%+20.2px)]" data-name="span">
       <BeforeMargin />
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[16px] text-center whitespace-nowrap">
-        <p className="leading-[28.8px]">収益UP</p>
+        <p className="leading-[28.8px]">{content.features.cards[3].titlePrefix}</p>
       </div>
       <AfterMargin />
     </div>
@@ -8896,7 +8866,7 @@ function DivNumberPrice4() {
   return (
     <div className="absolute h-[122px] left-[40px] right-[40px] top-[137.49px]" data-name="div.number-price">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-bold h-[39px] justify-center leading-[0] left-[calc(50%+0.17px)] text-[#614bc3] text-[24px] text-center top-[calc(50%-14px)] w-[192.349px]">
-        <p className="leading-[38.2px]">新収益の創出</p>
+        <p className="leading-[38.2px]">{content.features.cards[3].title}</p>
       </div>
       <Span35 />
     </div>
@@ -8940,11 +8910,9 @@ function P10() {
   return (
     <div className="absolute content-stretch flex flex-col items-center left-[40px] pb-[0.685px] right-[40px] top-[258.58px]" data-name="p">
       <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[0px] text-center whitespace-nowrap">
-        <p className="mb-0 text-[16px]">
-          <span className="font-normal leading-[25.6px] text-[#383838]">「並ぶのを諦めた」お客様を</span>
-        </p>
-        <p className="font-bold leading-[25.6px] mb-0 text-[#3bbab0] text-[16px]">ファストパスで取り戻す。</p>
-        <p className="leading-[25.6px] text-[16px]">来店機会の損失を最小化。</p>
+        <p className="mb-0 text-[16px]"><span className="font-normal leading-[25.6px] text-[#383838]">{content.features.cards[4].description[0]}</span></p>
+        <p className="font-bold leading-[25.6px] mb-0 text-[#3bbab0] text-[16px]">{content.features.cards[4].description[1]}</p>
+        <p className="leading-[25.6px] text-[16px]">{content.features.cards[4].description[2]}</p>
       </div>
     </div>
   );
@@ -8971,7 +8939,7 @@ function Span36() {
     <div className="-translate-y-1/2 absolute content-stretch flex items-center justify-center left-[5px] right-[-5px] top-[calc(50%+20.2px)]" data-name="span">
       <BeforeMargin1 />
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[16px] text-center whitespace-nowrap">
-        <p className="leading-[28.8px]">来店機会UP</p>
+        <p className="leading-[28.8px]">{content.features.cards[4].titlePrefix}</p>
       </div>
       <AfterMargin1 />
     </div>
@@ -8982,7 +8950,7 @@ function DivNumberPrice5() {
   return (
     <div className="absolute h-[122px] left-[40px] right-[40px] top-[137.49px]" data-name="div.number-price">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-bold h-[39px] justify-center leading-[0] left-[calc(50%+0.17px)] text-[#614bc3] text-[24px] text-center top-[calc(50%-14px)] w-[168.33px]">
-        <p className="leading-[38.2px]">離脱客の防止</p>
+        <p className="leading-[38.2px]">{content.features.cards[4].title}</p>
       </div>
       <Span36 />
     </div>
@@ -9026,11 +8994,9 @@ function P11() {
   return (
     <div className="absolute content-stretch flex flex-col items-center left-[40px] right-[40px] top-[258.38px]" data-name="p">
       <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[0px] text-center whitespace-nowrap">
-        <p className="leading-[25.6px] mb-0 text-[16px]">申し込み3分、QRが届いたら</p>
-        <p className="leading-[25.6px] mb-0 text-[16px]">置くだけ。アプリ不要・</p>
-        <p className="text-[16px]">
-          <span className="font-bold leading-[25.6px] text-[#3bbab0]">システム不要・スタッフ研修不要。</span>
-        </p>
+        <p className="leading-[25.6px] mb-0 text-[16px]">{content.features.cards[6].description[0]}</p>
+        <p className="leading-[25.6px] mb-0 text-[16px]">{content.features.cards[6].description[1]}</p>
+        <p className="text-[16px]"><span className="font-bold leading-[25.6px] text-[#3bbab0]">{content.features.cards[6].description[2]}</span></p>
       </div>
     </div>
   );
@@ -9057,7 +9023,7 @@ function Span37() {
     <div className="-translate-y-1/2 absolute content-stretch flex items-center justify-center left-[5px] right-[-5px] top-[calc(50%+20.2px)]" data-name="span">
       <BeforeMargin2 />
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[16px] text-center whitespace-nowrap">
-        <p className="leading-[28.8px]">即日スタート</p>
+        <p className="leading-[28.8px]">{content.features.cards[6].titlePrefix}</p>
       </div>
       <AfterMargin2 />
     </div>
@@ -9068,7 +9034,7 @@ function DivNumberPrice6() {
   return (
     <div className="absolute h-[122px] left-[40px] right-[40px] top-[137.49px]" data-name="div.number-price">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-bold h-[39px] justify-center leading-[0] left-[calc(50%+0.17px)] text-[#614bc3] text-[24px] text-center top-[calc(50%-14px)] w-[192.349px]">
-        <p className="leading-[38.2px]">設置・運用がかんたん</p>
+        <p className="leading-[38.2px]">{content.features.cards[5].title}</p>
       </div>
       <Span37 />
     </div>
@@ -9121,9 +9087,9 @@ function DivTtSection7() {
   return (
     <div className="content-stretch flex flex-col items-start max-w-[521px] relative shrink-0 w-[521px]" data-name="div.tt-section">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[22px] whitespace-nowrap">
-        <p className="leading-[35.2px] mb-0">飲食店・整骨院・クリニック・カフェ・スイーツ店など、</p>
-        <p className="leading-[35.2px] mb-0">行列が生まれるあらゆる業種で</p>
-        <p className="leading-[35.2px]">待ち時間を収益に変えます。</p>
+        <p className="leading-[35.2px] mb-0">{content.industry.description.split("、")[0]}、</p>
+        <p className="leading-[35.2px] mb-0">{content.industry.description.split("、")[1]}</p>
+        <p className="leading-[35.2px]">{content.industry.description.split("、")[2]}</p>
       </div>
     </div>
   );
@@ -9133,7 +9099,7 @@ function DivSubTtSection2() {
   return (
     <div className="content-stretch flex flex-col items-start max-w-[521px] relative shrink-0 w-[521px]" data-name="div.sub-tt-section">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[22px] whitespace-nowrap">
-        <p className="leading-[39.6px]">QRコードを置くだけで、その日から収益化。</p>
+        <p className="leading-[39.6px]">{content.about.description[0]}</p>
       </div>
     </div>
   );
@@ -9143,11 +9109,11 @@ function P12() {
   return (
     <div className="content-stretch flex flex-col items-start pt-[8.01px] relative shrink-0 w-[521px]" data-name="p">
       <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[16px] whitespace-nowrap">
-        <p className="leading-[28.8px] mb-0">ハヤパスなら、業種・規模を問わず導入できます。</p>
-        <p className="leading-[28.8px] mb-0">ラーメン店・寿司屋・整骨院・ネイルサロン・クリニック・</p>
-        <p className="leading-[28.8px] mb-0">テーマパークの列など、お客様が「待つ」場所があれば</p>
-        <p className="leading-[28.8px] mb-0">すぐにファストパスを導入できます。</p>
-        <p className="leading-[28.8px]">アプリ不要・システム不要。申し込みから最短3日でスタート。</p>
+        <p className="leading-[28.8px] mb-0">{content.industry.description.split("、")[0]}、</p>
+        <p className="leading-[28.8px] mb-0">{content.industry.description.split("、")[1]}</p>
+        <p className="leading-[28.8px] mb-0">{content.industry.description.split("、")[2]}</p>
+        <p className="leading-[28.8px] mb-0">{content.about.description[1]}</p>
+        <p className="leading-[28.8px]">{content.about.noRequirements.join("・")}。{content.flow.badge}</p>
       </div>
     </div>
   );
@@ -9173,13 +9139,11 @@ function DivTtPoint() {
     <div className="content-stretch flex flex-col items-start pb-[20px] relative shrink-0 w-full" data-name="div.tt-point">
       <div aria-hidden="true" className="absolute border-[#d7d7d7] border-b border-solid inset-0 pointer-events-none" />
       <div className="absolute h-[40px] left-0 top-[-55px] w-[150px]" data-name="::before">
-        <div className="absolute bg-clip-padding border-0 border-[transparent] border-solid inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-full left-0 max-w-none top-0 w-[83.9%]" src={imgBefore7} />
-        </div>
+        <div className="absolute bg-clip-padding border-0 border-[transparent] border-solid inset-0 overflow-hidden pointer-events-none"><img alt="" className="absolute h-full left-0 max-w-none top-0 w-[83.9%]" src={imgBefore7} /></div>
       </div>
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[24px] whitespace-nowrap">
-        <p className="leading-[38.4px] mb-0">たった７ステップで分かりやすい、お客様視</p>
-        <p className="leading-[38.4px]">点の提案書が自動で完成</p>
+        <p className="leading-[38.4px] mb-0">{content.about.steps[0].title}</p>
+        <p className="leading-[38.4px]">{content.about.steps[0].description}</p>
       </div>
     </div>
   );
@@ -9189,8 +9153,8 @@ function P13() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="p">
       <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[16px] w-full">
-        <p className="leading-[28.8px] mb-0">お客様視点の提案書が自動作成できます。</p>
-        <p className="leading-[28.8px]">エクセルでは難しい複雑な診断も簡単。</p>
+        <p className="leading-[28.8px] mb-0">{content.about.steps[1].description}</p>
+        <p className="leading-[28.8px]">{content.about.steps[2].description}</p>
       </div>
     </div>
   );
@@ -9202,7 +9166,7 @@ function Li22() {
       <div className="content-stretch flex flex-col items-start pl-[10px] relative size-full">
         <div className="absolute bg-[#333] left-0 rounded-[1.5px] size-[3px] top-[12px]" data-name="::before" />
         <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[16px] whitespace-nowrap">
-          <p className="leading-[28.8px]">太陽光、オール電化、蓄電池の経済効果シミュレーション</p>
+          <p className="leading-[28.8px]">{content.about.steps[3].description}</p>
         </div>
       </div>
     </div>
@@ -9215,7 +9179,7 @@ function Li23() {
       <div className="content-stretch flex flex-col items-start pl-[10px] relative size-full">
         <div className="absolute bg-[#333] left-0 rounded-[1.5px] size-[3px] top-[12px]" data-name="::before" />
         <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[16px] whitespace-nowrap">
-          <p className="leading-[28.8px]">豊富な電気料金プランの提案にも</p>
+          <p className="leading-[28.8px]">{content.about.noRequirements.join("、")}</p>
         </div>
       </div>
     </div>
@@ -9323,8 +9287,7 @@ function P14() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="p">
       <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[16px] w-full">
-        <p className="leading-[28.8px] mb-0">支払い期間やローン金利を入れればFIT期間とFIT期間終了後の負担額も自動計算でき</p>
-        <p className="leading-[28.8px]">ます。</p>
+        <p className="leading-[28.8px] mb-0">{content.about.steps[3].description}</p>
       </div>
     </div>
   );
@@ -9336,7 +9299,7 @@ function Li24() {
       <div className="content-stretch flex flex-col items-start pl-[10px] relative size-full">
         <div className="absolute bg-[#333] left-0 rounded-[1.5px] size-[3px] top-[12px]" data-name="::before" />
         <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[16px] whitespace-nowrap">
-          <p className="leading-[28.8px]">FIT期間、FIT終了後で1ヶ月、1日あたりいくらのお支払いか？</p>
+          <p className="leading-[28.8px]">{content.flow.steps[0].bullets[0]}</p>
         </div>
       </div>
     </div>
@@ -9349,7 +9312,7 @@ function Li25() {
       <div className="content-stretch flex flex-col items-start pl-[10px] relative size-full">
         <div className="absolute bg-[#333] left-0 rounded-[1.5px] size-[3px] top-[12px]" data-name="::before" />
         <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[16px] whitespace-nowrap">
-          <p className="leading-[28.8px]">ぱぱっと計算できるためその場で提示できる</p>
+          <p className="leading-[28.8px]">{content.flow.steps[1].bullets[0]}</p>
         </div>
       </div>
     </div>
@@ -9406,9 +9369,9 @@ function DivTtPoint2() {
         </div>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col font-bold h-[116px] justify-center leading-[0] left-0 text-[#383838] text-[24px] top-[57.4px] w-[597.81px]">
-        <p className="leading-[38.4px] mb-0">診断は最短15秒、</p>
-        <p className="leading-[38.4px] mb-0">分かりやすく信頼感のあるビジュアルのグラフ付き提案</p>
-        <p className="leading-[38.4px]">書を自動で作成</p>
+        <p className="leading-[38.4px] mb-0">{content.flow.steps[2].title},</p>
+        <p className="leading-[38.4px] mb-0">{content.flow.steps[2].bullets[0]}</p>
+        <p className="leading-[38.4px]">{content.flow.steps[2].bullets[1]}</p>
       </div>
     </div>
   );
@@ -9418,10 +9381,10 @@ function P15() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="p">
       <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[16px] w-full">
-        <p className="leading-[28.8px] mb-0">太陽光・蓄電池・エコキュート等の長期経済効果をズバリ診断。</p>
-        <p className="leading-[28.8px] mb-0">新入社員やパートの方でもサクッと覚えて使えます。また、作成した提案書はその場</p>
-        <p className="leading-[28.8px] mb-0">ですぐにPDFとエクセルで出力できます。エクセルを加工すれば自社だけの提案書を</p>
-        <p className="leading-[28.8px]">作る事が可能です。</p>
+        <p className="leading-[28.8px] mb-0">{content.flow.steps[2].bullets[2]}</p>
+        <p className="leading-[28.8px] mb-0">{content.flow.steps[2].bullets[3]}</p>
+        <p className="leading-[28.8px] mb-0">{content.flow.safetyNote}</p>
+        <p className="leading-[28.8px]">{content.flow.description[1]}</p>
       </div>
     </div>
   );
@@ -9500,7 +9463,7 @@ function P16() {
   return (
     <div className="content-stretch flex flex-col items-center relative shrink-0" data-name="p">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[18px] text-center text-white whitespace-nowrap" role="link" tabIndex="0">
-        <p className="cursor-pointer leading-[27px]">シミュレーション保証とは？</p>
+        <p className="cursor-pointer leading-[27px]">{content.support.testimonialHeading[0]}</p>
       </div>
     </div>
   );
@@ -9550,7 +9513,7 @@ function DivSubTtSection3() {
   return (
     <div className="content-stretch flex flex-col items-start pb-[0.59px] relative shrink-0 w-full" data-name="div.sub-tt-section">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[26px] tracking-[3px] w-full">
-        <p className="leading-[39.6px]">資料でわかる</p>
+        <p className="leading-[39.6px]">{content.support.testimonials[1].author}</p>
       </div>
     </div>
   );
@@ -9560,11 +9523,8 @@ function DivTtSection8() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="div.tt-section">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#3bbab0] text-[0px] tracking-[3px] w-full">
-        <p className="mb-0 text-[30px]">
-          <span className="leading-[48px] text-[#3bbab0]">ハヤパス</span>
-          <span className="leading-[48px] text-[#383838]">経済効果シミュ</span>
-        </p>
-        <p className="leading-[48px] text-[#383838] text-[30px]">レーション保証</p>
+        <p className="mb-0 text-[30px]"><span className="leading-[48px] text-[#3bbab0]">{content.support.testimonials[1].body[0]}</span><span className="leading-[48px] text-[#383838]">{content.support.testimonials[1].body[1]}</span></p>
+        <p className="leading-[48px] text-[#383838] text-[30px]">{content.support.testimonials[1].body[2]}</p>
       </div>
     </div>
   );
@@ -9574,8 +9534,8 @@ function P17() {
   return (
     <div className="content-stretch flex flex-col items-start pb-[27px] relative shrink-0 w-full" data-name="p">
       <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[14px] w-full">
-        <p className="leading-[22.4px] mb-0">シミュレーション保証サービスの資料を今すぐチェック。他社と圧倒</p>
-        <p className="leading-[22.4px]">的に差別化したい方、ぜひ一度ご覧ください。</p>
+        <p className="leading-[22.4px] mb-0">{content.support.testimonials[2].body[0]}</p>
+        <p className="leading-[22.4px]">{content.support.testimonials[2].body[1]}</p>
       </div>
     </div>
   );
@@ -9591,7 +9551,7 @@ function DivContent30() {
         <a className="bg-[#ff4858] content-stretch cursor-pointer flex items-start max-w-[328px] pb-[15px] pl-[33px] pr-[17px] pt-[13px] relative rounded-[8px] shrink-0 w-[328px]" href="https://speakerdeck.com/satoru_higuchi/sim-hosyou" target="_blank" data-name="Component 17">
           <div aria-hidden="true" className="absolute border border-[#ff4858] border-solid inset-0 pointer-events-none rounded-[8px]" />
           <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[15px] text-left text-white whitespace-nowrap" role="link" tabIndex="0">
-            <p className="cursor-pointer leading-[24px]">資料はこちらからご確認ください</p>
+          <p className="cursor-pointer leading-[24px]">{content.cta.downloadButton}</p>
           </div>
           <div className="absolute h-[12px] right-[31px] top-[20px] w-[6px]" data-name="::after">
             <div className="absolute bg-clip-padding border-0 border-[transparent] border-solid inset-0 overflow-hidden pointer-events-none">
@@ -9656,10 +9616,10 @@ function P18() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="p">
       <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[16px] text-white w-full">
-        <p className="leading-[28.8px] mb-0">国内家庭用太陽光・蓄電池販売ランキングNo.1・No.2もハヤパスを採用。</p>
-        <p className="leading-[28.8px] mb-0">最新バージョン・全機能が今すぐ30日間無料でお試しいただけます。</p>
-        <p className="leading-[28.8px] mb-0">全国各地の大手から中小までゾクゾク活用中。</p>
-        <p className="leading-[28.8px]">今すぐ無料で試しませんか？</p>
+        <p className="leading-[28.8px] mb-0">{content.cta.description2[0]}</p>
+        <p className="leading-[28.8px] mb-0">{content.cta.description2[1]}</p>
+        <p className="leading-[28.8px] mb-0">{content.cta.description2[2]}</p>
+        <p className="leading-[28.8px]">{content.cta.description2[3]}</p>
       </div>
     </div>
   );
@@ -9685,7 +9645,7 @@ function PSmall4() {
           </div>
         </div>
         <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-bold h-[24px] justify-center leading-[0] left-[calc(50%+7.17px)] text-[14px] text-center text-white top-[10px] w-[348.556px]" role="link" tabIndex="0">
-          <p className="cursor-pointer leading-[24px]">ハヤパスASPについてご相談・お問い合わせはこちら</p>
+          <p className="cursor-pointer leading-[24px]">{content.cta.contactLink}</p>
         </div>
       </a>
     </div>
@@ -9698,9 +9658,7 @@ function DivColunm44() {
       <a className="absolute content-stretch cursor-pointer flex items-start justify-center left-0 max-w-[414px] pl-px pr-[15px] py-px right-0 rounded-[8px] top-[74.5px]" href={urls.documents} target="_blank" data-name="Component 1">
         <div aria-hidden="true" className="absolute border border-[#ffe500] border-solid inset-0 pointer-events-none rounded-[8px]" />
         <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#ffe500] text-[0px] text-center whitespace-nowrap">
-          <p className="cursor-pointer leading-[76px] text-[18px]" role="link" tabIndex="0">
-            資料ダウンロード
-          </p>
+          <p className="cursor-pointer leading-[76px] text-[18px]" role="link" tabIndex="0">{content.cta.downloadButton}</p>
         </div>
         <div className="absolute h-[16px] right-[35.01px] top-[31.5px] w-[8px]" data-name="::after">
           <div className="absolute bg-clip-padding border-0 border-[transparent] border-solid inset-0 overflow-hidden pointer-events-none">
@@ -9711,9 +9669,7 @@ function DivColunm44() {
       <a className="absolute bg-[#ff4858] content-stretch cursor-pointer flex items-start justify-center left-0 max-w-[414px] pl-px pr-[15px] py-px right-0 rounded-[8px] top-[184.5px]" href={urls.trial} target="_blank" data-name="Component 1">
         <div aria-hidden="true" className="absolute border border-[#ff4858] border-solid inset-0 pointer-events-none rounded-[8px]" />
         <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[0px] text-center text-white whitespace-nowrap">
-          <p className="cursor-pointer leading-[76px] text-[18px]" role="link" tabIndex="0">
-            無料で30日全機能を試してみる
-          </p>
+          <p className="cursor-pointer leading-[76px] text-[18px]" role="link" tabIndex="0">{content.cta.trialButton2}</p>
         </div>
         <div className="absolute h-[16px] right-[35.01px] top-[31.5px] w-[8px]" data-name="::after">
           <div className="absolute bg-clip-padding border-0 border-[transparent] border-solid inset-0 overflow-hidden pointer-events-none">
@@ -10118,7 +10074,7 @@ function DivTtSection12() {
   return (
     <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-name="div.tt-section">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[32px] text-center whitespace-nowrap">
-        <p className="leading-[51.2px]">蓄電池の経済効果シミュレーション実例</p>
+        <p className="leading-[51.2px]">{content.demo.popup.simulationExample.title}</p>
       </div>
     </div>
   );
@@ -10128,9 +10084,9 @@ function P22() {
   return (
     <div className="content-stretch flex flex-col items-center pt-[13.3px] relative shrink-0 w-full" data-name="p">
       <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[16px] text-center whitespace-nowrap">
-        <p className="leading-[28.8px] mb-0">お客様情報と提案内容を入力したら、たった15秒で診断結果と提案書が自動作成されます。</p>
-        <p className="leading-[28.8px] mb-0">出力されるデータはエクセルとPDFの２種類、電気代上昇率を加味した長期経済効果、実質支払い額</p>
-        <p className="leading-[28.8px]">（毎月、1日当たり）導入施設毎の効果額など詳細なデータを出力いたします。</p>
+        <p className="leading-[28.8px] mb-0">{content.demo.popup.simulationExample.description[0]}</p>
+        <p className="leading-[28.8px] mb-0">{content.demo.popup.simulationExample.description[1]}</p>
+        <p className="leading-[28.8px]">{content.demo.popup.simulationExample.description[2]}</p>
       </div>
     </div>
   );
@@ -10380,6 +10336,39 @@ function PLink24() {
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap">
         <p className="leading-[28px]">申し込み3分</p>
       </div>
+    </div>
+  );
+}
+
+function FaqItem({ question, answer, index }: { question: string; answer: string; index: number }) {
+  return (
+    <div className="relative rounded-[16px] shrink-0 w-full" data-name={`dl-${index}`}>
+      <div className="content-stretch flex flex-col items-start overflow-clip p-px relative rounded-[inherit] size-full">
+        <div className="relative shrink-0 w-full" data-name={`dt-${index}`}>
+          <div className="absolute bg-clip-padding border-0 border-[transparent] border-solid inset-0 overflow-hidden pointer-events-none">
+            <img alt="" className="absolute h-[36.21%] left-[2.51%] max-w-none top-[34.82%] w-[2.73%]" src={imgDt} />
+          </div>
+          <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start pb-[22px] pl-[66px] pr-[90px] pt-[21px] relative size-full">
+            <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[18px] whitespace-nowrap">
+              <p className="leading-[28.8px]">{question}</p>
+            </div>
+            <div className="absolute h-[10px] right-[31px] top-[32px] w-[20px]" data-name="::after">
+              <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                <img alt="" className="absolute h-[105.26%] left-0 max-w-none top-[-2.63%] w-full" src={imgAfter6} />
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Answer part (dd equivalent) */}
+        <div className="relative shrink-0 w-full" data-name={`dd-${index}`}>
+          <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start pb-[22px] pl-[66px] pr-[90px] pt-[0px] relative size-full">
+            <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[16px] whitespace-pre-wrap">
+              <p className="leading-[28.8px]">{answer}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div aria-hidden="true" className="absolute border border-[#d7d7d7] border-solid inset-0 pointer-events-none rounded-[16px]" />
     </div>
   );
 }
@@ -11309,153 +11298,24 @@ function DivTitleColor() {
   );
 }
 
-function Li42() {
-  return (
-    <div className="absolute content-stretch flex flex-col items-start left-[104px] pb-[0.59px] right-[620px] top-[55px]" data-name="li">
-      <div className="absolute bg-[#333] left-[-17px] rounded-[2px] size-[4px] top-[14px]" data-name="::before" />
-      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[13px] whitespace-nowrap">
-        <p className="leading-[28.6px]">太陽光・蓄電池だけでなく、EV、V2Hのシミュレーションも相談したい</p>
-      </div>
-    </div>
-  );
-}
-
-function Li43() {
-  return (
-    <div className="absolute content-stretch flex flex-col items-start left-[104px] pb-[0.59px] right-[620px] top-[83.6px]" data-name="li">
-      <div className="absolute bg-[#333] left-[-17px] rounded-[2px] size-[4px] top-[14px]" data-name="::before" />
-      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[13px] whitespace-nowrap">
-        <p className="leading-[28.6px]">産業用自家消費（非FIT太陽光）＋蓄電池のシミュレーターも使いたい</p>
-      </div>
-    </div>
-  );
-}
-
-function Li44() {
-  return (
-    <div className="absolute content-stretch flex flex-col items-start left-[104px] pb-[0.59px] right-[620px] top-[112.19px]" data-name="li">
-      <div className="absolute bg-[#333] left-[-17px] rounded-[2px] size-[4px] top-[14px]" data-name="::before" />
-      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[13px] whitespace-nowrap">
-        <p className="leading-[28.6px]">経済効果シミュレーション保証を絡めた独自の売れる仕組みを作りたい</p>
-      </div>
-    </div>
-  );
-}
-
-function Li45() {
-  return (
-    <div className="absolute content-stretch flex flex-col items-start left-[104px] pb-[0.59px] right-[620px] top-[140.78px]" data-name="li">
-      <div className="absolute bg-[#333] left-[-17px] rounded-[2px] size-[4px] top-[14px]" data-name="::before" />
-      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[13px] whitespace-nowrap">
-        <p className="leading-[28.6px]">蓄電池メーカーや蓄電池商社、おすすめ新電力を紹介してほしい</p>
-      </div>
-    </div>
-  );
-}
-
-function Li46() {
-  return (
-    <div className="absolute content-stretch flex flex-col items-start left-[104px] pb-[0.59px] right-[620px] top-[169.38px]" data-name="li">
-      <div className="absolute bg-[#333] left-[-17px] rounded-[2px] size-[4px] top-[14px]" data-name="::before" />
-      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[13px] whitespace-nowrap">
-        <p className="leading-[28.6px]">パートナーとしての販売施工店を紹介してほしい</p>
-      </div>
-    </div>
-  );
-}
-
-function Li47() {
-  return (
-    <div className="absolute content-stretch flex flex-col items-start left-[104px] pb-[0.59px] right-[620px] top-[197.97px]" data-name="li">
-      <div className="absolute bg-[#333] left-[-17px] rounded-[2px] size-[4px] top-[14px]" data-name="::before" />
-      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[13px] whitespace-nowrap">
-        <p className="leading-[28.6px]">自社のWeb料金プランシミュレーターをハヤパスAPIで構築したい</p>
-      </div>
-    </div>
-  );
-}
-
-function Li48() {
-  return (
-    <div className="absolute content-stretch flex flex-col items-start left-[636px] pb-[0.59px] right-[88px] top-[55px]" data-name="li">
-      <div className="absolute bg-[#333] left-[-17px] rounded-[2px] size-[4px] top-[14px]" data-name="::before" />
-      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[13px] whitespace-nowrap">
-        <p className="leading-[28.6px]">自社Webサイトに太陽光、蓄電池シミュレーターを組み込みたい。</p>
-      </div>
-    </div>
-  );
-}
-
-function Li49() {
-  return (
-    <div className="absolute content-stretch flex flex-col items-start left-[636px] pb-[0.59px] right-[88px] top-[83.6px]" data-name="li">
-      <div className="absolute bg-[#333] left-[-17px] rounded-[2px] size-[4px] top-[14px]" data-name="::before" />
-      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[13px] whitespace-nowrap">
-        <p className="leading-[28.6px]">蓄電池の充放電制御に関するAPIや気象予測APIサービスを提供してほしい</p>
-      </div>
-    </div>
-  );
-}
-
-function Li50() {
-  return (
-    <div className="absolute content-stretch flex flex-col items-start left-[636px] pb-[0.59px] right-[88px] top-[112.19px]" data-name="li">
-      <div className="absolute bg-[#333] left-[-17px] rounded-[2px] size-[4px] top-[14px]" data-name="::before" />
-      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[13px] whitespace-nowrap">
-        <p className="leading-[28.6px]">WEBやTELを絡めた蓄電池ダイレクト販売モデルを構築したい</p>
-      </div>
-    </div>
-  );
-}
-
-function Li51() {
-  return (
-    <div className="absolute content-stretch flex flex-col items-start left-[636px] pb-[0.59px] right-[88px] top-[140.78px]" data-name="li">
-      <div className="absolute bg-[#333] left-[-17px] rounded-[2px] size-[4px] top-[14px]" data-name="::before" />
-      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[13px] whitespace-nowrap">
-        <p className="leading-[28.6px]">地方自治体や地域脱炭素の領域の支援をしてほしい</p>
-      </div>
-    </div>
-  );
-}
-
-function Li52() {
-  return (
-    <div className="absolute content-stretch flex flex-col items-start left-[636px] pb-[0.59px] right-[88px] top-[169.38px]" data-name="li">
-      <div className="absolute bg-[#333] left-[-17px] rounded-[2px] size-[4px] top-[14px]" data-name="::before" />
-      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[13px] whitespace-nowrap">
-        <p className="leading-[28.6px]">信頼できる産業用自家消費や住宅用太陽光、蓄電池の施工会社を紹介してほしい</p>
-      </div>
-    </div>
-  );
-}
-
-function Li53() {
-  return (
-    <div className="absolute content-stretch flex flex-col items-start left-[636px] pb-[0.59px] right-[88px] top-[197.97px]" data-name="li">
-      <div className="absolute bg-[#333] left-[-17px] rounded-[2px] size-[4px] top-[14px]" data-name="::before" />
-      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[13px] whitespace-nowrap">
-        <p className="leading-[28.6px]">蓄電池の販売や提案手法に関するイベント、セミナー、勉強会をしてほしい</p>
-      </div>
-    </div>
-  );
-}
-
 function Ul10() {
   return (
     <div className="bg-white h-[259.56px] mb-[-32px] relative shrink-0 w-full z-[1]" data-name="ul">
-      <Li42 />
-      <Li43 />
-      <Li44 />
-      <Li45 />
-      <Li46 />
-      <Li47 />
-      <Li48 />
-      <Li49 />
-      <Li50 />
-      <Li51 />
-      <Li52 />
-      <Li53 />
+      {content.support.otherConsultations.items.map((item, index) => {
+        const isLeftColumn = index < 6;
+        const topPosition = 55 + (index % 6) * 28.59;
+        const leftPosition = isLeftColumn ? 104 : 636;
+        const rightPosition = isLeftColumn ? 620 : 88;
+
+        return (
+          <div key={index} className="absolute content-stretch flex flex-col items-start" style={{ left: `${leftPosition}px`, right: `${rightPosition}px`, top: `${topPosition}px` }} data-name="li">
+            <div className="absolute bg-[#333] left-[-17px] rounded-[2px] size-[4px] top-[14px]" data-name="::before" />
+            <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[13px] whitespace-nowrap">
+              <p className="leading-[28.6px]">{item}</p>
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 }
@@ -11513,234 +11373,12 @@ function P32() {
     </div>
   );
 }
-
-function Dt() {
-  return (
-    <div className="relative shrink-0 w-full" data-name="dt">
-      <div className="absolute bg-clip-padding border-0 border-[transparent] border-solid inset-0 overflow-hidden pointer-events-none">
-        <img alt="" className="absolute h-[36.21%] left-[2.51%] max-w-none top-[34.82%] w-[2.73%]" src={imgDt} />
-      </div>
-      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start pb-[22px] pl-[66px] pr-[90px] pt-[21px] relative size-full">
-        <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[18px] whitespace-nowrap">
-          <p className="leading-[28.8px]">経済効果シミュレーションを保証してくれるんですか？</p>
-        </div>
-        <div className="absolute h-[10px] right-[31px] top-[32px] w-[20px]" data-name="::after">
-          <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <img alt="" className="absolute h-[105.26%] left-0 max-w-none top-[-2.63%] w-full" src={imgAfter6} />
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function Dl() {
-  return (
-    <div className="relative rounded-[16px] shrink-0 w-full" data-name="dl">
-      <div className="content-stretch flex flex-col items-start overflow-clip p-px relative rounded-[inherit] size-full">
-        <Dt />
-      </div>
-      <div aria-hidden="true" className="absolute border border-[#d7d7d7] border-solid inset-0 pointer-events-none rounded-[16px]" />
-    </div>
-  );
-}
-
-function Dt1() {
-  return (
-    <div className="relative shrink-0 w-full" data-name="dt">
-      <div className="absolute bg-clip-padding border-0 border-[transparent] border-solid inset-0 overflow-hidden pointer-events-none">
-        <img alt="" className="absolute h-[36.21%] left-[2.51%] max-w-none top-[34.82%] w-[2.73%]" src={imgDt} />
-      </div>
-      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start pb-[22px] pl-[66px] pr-[90px] pt-[21px] relative size-full">
-        <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[18px] whitespace-nowrap">
-          <p className="leading-[28.8px]">産業用自家消費型太陽光や産業用蓄電池にも対応していますか？</p>
-        </div>
-        <div className="absolute h-[10px] right-[31px] top-[32px] w-[20px]" data-name="::after">
-          <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <img alt="" className="absolute h-[105.26%] left-0 max-w-none top-[-2.63%] w-full" src={imgAfter6} />
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function Dl1() {
-  return (
-    <div className="relative rounded-[16px] shrink-0 w-full" data-name="dl">
-      <div className="content-stretch flex flex-col items-start overflow-clip p-px relative rounded-[inherit] size-full">
-        <Dt1 />
-      </div>
-      <div aria-hidden="true" className="absolute border border-[#d7d7d7] border-solid inset-0 pointer-events-none rounded-[16px]" />
-    </div>
-  );
-}
-
-function Dt2() {
-  return (
-    <div className="relative shrink-0 w-full" data-name="dt">
-      <div className="absolute bg-clip-padding border-0 border-[transparent] border-solid inset-0 overflow-hidden pointer-events-none">
-        <img alt="" className="absolute h-[36.21%] left-[2.51%] max-w-none top-[34.82%] w-[2.73%]" src={imgDt} />
-      </div>
-      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start pb-[22px] pl-[66px] pr-[90px] pt-[21px] relative size-full">
-        <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[18px] whitespace-nowrap">
-          <p className="leading-[28.8px]">EVやEV充電器、V2H、トライブリッドのシミュレーションはできるか？</p>
-        </div>
-        <div className="absolute h-[10px] right-[31px] top-[32px] w-[20px]" data-name="::after">
-          <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <img alt="" className="absolute h-[105.26%] left-0 max-w-none top-[-2.63%] w-full" src={imgAfter6} />
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function Dl2() {
-  return (
-    <div className="relative rounded-[16px] shrink-0 w-full" data-name="dl">
-      <div className="content-stretch flex flex-col items-start overflow-clip p-px relative rounded-[inherit] size-full">
-        <Dt2 />
-      </div>
-      <div aria-hidden="true" className="absolute border border-[#d7d7d7] border-solid inset-0 pointer-events-none rounded-[16px]" />
-    </div>
-  );
-}
-
-function Dt3() {
-  return (
-    <div className="relative shrink-0 w-full" data-name="dt">
-      <div className="absolute bg-clip-padding border-0 border-[transparent] border-solid inset-0 overflow-hidden pointer-events-none">
-        <img alt="" className="absolute h-[36.21%] left-[2.51%] max-w-none top-[34.82%] w-[2.73%]" src={imgDt} />
-      </div>
-      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start pb-[22px] pl-[66px] pr-[90px] pt-[21px] relative size-full">
-        <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[18px] whitespace-nowrap">
-          <p className="leading-[28.8px]">ハヤパスのASP診断精度は？</p>
-        </div>
-        <div className="absolute h-[10px] right-[31px] top-[32px] w-[20px]" data-name="::after">
-          <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <img alt="" className="absolute h-[105.26%] left-0 max-w-none top-[-2.63%] w-full" src={imgAfter6} />
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function Dl3() {
-  return (
-    <div className="relative rounded-[16px] shrink-0 w-full" data-name="dl">
-      <div className="content-stretch flex flex-col items-start overflow-clip p-px relative rounded-[inherit] size-full">
-        <Dt3 />
-      </div>
-      <div aria-hidden="true" className="absolute border border-[#d7d7d7] border-solid inset-0 pointer-events-none rounded-[16px]" />
-    </div>
-  );
-}
-
-function Dt4() {
-  return (
-    <div className="relative shrink-0 w-full" data-name="dt">
-      <div className="absolute bg-clip-padding border-0 border-[transparent] border-solid inset-0 overflow-hidden pointer-events-none">
-        <img alt="" className="absolute h-[36.21%] left-[2.51%] max-w-none top-[34.82%] w-[2.73%]" src={imgDt} />
-      </div>
-      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start pb-[22px] pl-[66px] pr-[90px] pt-[21px] relative size-full">
-        <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[18px] whitespace-nowrap">
-          <p className="leading-[28.8px]">ハヤパスASPに登録されている蓄電池はどれくらいありますか?</p>
-        </div>
-        <div className="absolute h-[10px] right-[31px] top-[32px] w-[20px]" data-name="::after">
-          <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <img alt="" className="absolute h-[105.26%] left-0 max-w-none top-[-2.63%] w-full" src={imgAfter6} />
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function Dl4() {
-  return (
-    <div className="relative rounded-[16px] shrink-0 w-full" data-name="dl">
-      <div className="content-stretch flex flex-col items-start overflow-clip p-px relative rounded-[inherit] size-full">
-        <Dt4 />
-      </div>
-      <div aria-hidden="true" className="absolute border border-[#d7d7d7] border-solid inset-0 pointer-events-none rounded-[16px]" />
-    </div>
-  );
-}
-
-function Dt5() {
-  return (
-    <div className="relative shrink-0 w-full" data-name="dt">
-      <div className="absolute bg-clip-padding border-0 border-[transparent] border-solid inset-0 overflow-hidden pointer-events-none">
-        <img alt="" className="absolute h-[36.21%] left-[2.51%] max-w-none top-[34.82%] w-[2.73%]" src={imgDt} />
-      </div>
-      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start pb-[22px] pl-[66px] pr-[90px] pt-[21px] relative size-full">
-        <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[18px] whitespace-nowrap">
-          <p className="leading-[28.8px]">太陽光・蓄電池の販売手法や提案のコツを教えてもらえますか？</p>
-        </div>
-        <div className="absolute h-[10px] right-[31px] top-[32px] w-[20px]" data-name="::after">
-          <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <img alt="" className="absolute h-[105.26%] left-0 max-w-none top-[-2.63%] w-full" src={imgAfter6} />
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function Dl5() {
-  return (
-    <div className="relative rounded-[16px] shrink-0 w-full" data-name="dl">
-      <div className="content-stretch flex flex-col items-start overflow-clip p-px relative rounded-[inherit] size-full">
-        <Dt5 />
-      </div>
-      <div aria-hidden="true" className="absolute border border-[#d7d7d7] border-solid inset-0 pointer-events-none rounded-[16px]" />
-    </div>
-  );
-}
-
-function Dt6() {
-  return (
-    <div className="relative shrink-0 w-full" data-name="dt">
-      <div className="absolute bg-clip-padding border-0 border-[transparent] border-solid inset-0 overflow-hidden pointer-events-none">
-        <img alt="" className="absolute h-[36.21%] left-[2.51%] max-w-none top-[34.82%] w-[2.73%]" src={imgDt} />
-      </div>
-      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start pb-[22px] pl-[66px] pr-[90px] pt-[21px] relative size-full">
-        <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[18px] whitespace-nowrap">
-          <p className="leading-[28.8px]">ペロブスカイト等の壁面太陽光発電量シミュレーションは可能ですか？</p>
-        </div>
-        <div className="absolute h-[10px] right-[31px] top-[32px] w-[20px]" data-name="::after">
-          <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <img alt="" className="absolute h-[105.26%] left-0 max-w-none top-[-2.63%] w-full" src={imgAfter6} />
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function Dl6() {
-  return (
-    <div className="relative rounded-[16px] shrink-0 w-full" data-name="dl">
-      <div className="content-stretch flex flex-col items-start overflow-clip p-px relative rounded-[inherit] size-full">
-        <Dt6 />
-      </div>
-      <div aria-hidden="true" className="absolute border border-[#d7d7d7] border-solid inset-0 pointer-events-none rounded-[16px]" />
-    </div>
-  );
-}
-
 function DivQAContent() {
   return (
     <div className="content-stretch flex flex-col gap-[24px] items-start pb-[7.5px] relative shrink-0 w-full" data-name="div.q-a-content">
-      <Dl />
-      <Dl1 />
-      <Dl2 />
-      <Dl3 />
-      <Dl4 />
-      <Dl5 />
-      <Dl6 />
+      {content.faq.questions.map((item, index) => (
+        <FaqItem key={index} question={item.q} answer={item.a} index={index} />
+      ))}
     </div>
   );
 }
@@ -13082,18 +12720,10 @@ function Masthead() {
 function DivSubTtSection6() {
   return (
     <div className="h-[44px] leading-[0] relative shrink-0 w-full" data-name="div.sub-tt-section">
-      <div className="-translate-y-1/2 absolute flex flex-col font-normal h-[36px] justify-center left-0 text-[20px] text-white top-[25.5px] w-[60.384px]">
-        <p className="leading-[36px]">たった</p>
-      </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-bold h-[36px] justify-center left-[66px] not-italic text-[#ffe500] text-[47.1px] top-[23.5px] w-[53.59px]">
-        <p className="leading-[36px]">15</p>
-      </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-bold h-[36px] justify-center left-[119.39px] not-italic text-[#ffe500] text-[28px] top-[30.5px] w-[28.2px]">
-        <p className="leading-[36px]">秒</p>
-      </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-normal h-[36px] justify-center left-[150.39px] text-[20px] text-white top-[25.5px] w-[219.57px]">
-        <p className="leading-[36px]">でシミュレーション完了</p>
-      </div>
+      <div className="-translate-y-1/2 absolute flex flex-col font-normal h-[36px] justify-center left-0 text-[20px] text-white top-[25.5px] w-[60.384px]"><p className="leading-[36px]">たった</p></div>
+      <div className="-translate-y-1/2 absolute flex flex-col font-bold h-[36px] justify-center left-[66px] not-italic text-[#ffe500] text-[47.1px] top-[23.5px] w-[53.59px]"><p className="leading-[36px]">15</p></div>
+      <div className="-translate-y-1/2 absolute flex flex-col font-bold h-[36px] justify-center left-[119.39px] not-italic text-[#ffe500] text-[28px] top-[30.5px] w-[28.2px]"><p className="leading-[36px]">秒</p></div>
+      <div className="-translate-y-1/2 absolute flex flex-col font-normal h-[36px] justify-center left-[150.39px] text-[20px] text-white top-[25.5px] w-[219.57px]"><p className="leading-[36px]">{content.cta.subTitle.substring(5)}</p></div>
     </div>
   );
 }
@@ -13102,8 +12732,8 @@ function DivTtSection18() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="div.tt-section">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[40px] text-white w-full">
-        <p className="leading-[64px] mb-0">むずかしいシミュレーションを</p>
-        <p className="leading-[64px]">誰でもカンタンに。</p>
+        <p className="leading-[64px] mb-0">{content.cta.title[0]}</p>
+        <p className="leading-[64px]">{content.cta.title[1]}</p>
       </div>
     </div>
   );
@@ -13207,7 +12837,7 @@ function P37() {
     <div className="relative shrink-0 w-full" data-name="p">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-end relative size-full">
         <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[12px] text-right text-white whitespace-nowrap">
-          <p className="leading-[18px]">Copyright ©国際航業株式会社 All Rights Reserved.</p>
+          <p className="leading-[18px]">{content.footer.copyright2}</p>
         </div>
       </div>
     </div>
@@ -13247,10 +12877,7 @@ function P38() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="p">
       <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[0px] w-full">
-        <p className="text-[15px]">
-          <span className="font-normal leading-[24px]">運営：</span>
-          <span className="font-bold leading-[24px]">国際航業株式会社</span>
-        </p>
+        <p className="text-[15px]"><span className="font-normal leading-[24px]">{content.footer.operatorLabel}</span><span className="font-bold leading-[24px]">{content.footer.operatorName}</span></p>
       </div>
     </div>
   );
@@ -13260,8 +12887,8 @@ function PSmall6() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="p.small">
       <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#383838] text-[11px] w-full">
-        <p className="leading-[17.6px] mb-0">〒169-0074</p>
-        <p className="leading-[17.6px]">東京都新宿区北新宿2丁目21番1号新宿フロントタワー</p>
+        <p className="leading-[17.6px] mb-0">{content.footer.address[0]}</p>
+        <p className="leading-[17.6px]">{content.footer.address[1]}</p>
       </div>
     </div>
   );
@@ -13275,7 +12902,7 @@ function Li54() {
           <p className="cursor-pointer leading-[19.2px]">{`\uF054`}</p>
         </div>
         <div className="-translate-y-1/2 absolute flex flex-col font-normal h-[20px] justify-center left-[14.25px] text-[12px] top-[9px] w-[108.387px]" role="link" tabIndex="0">
-          <p className="cursor-pointer leading-[19.2px]">コーポレートサイト</p>
+          <p className="cursor-pointer leading-[19.2px]">{content.footer.nav.corporateSite}</p>
         </div>
       </a>
     </div>
@@ -13298,7 +12925,7 @@ function Li55() {
           <p className="cursor-pointer leading-[19.2px]">{`\uF054`}</p>
         </div>
         <div className="-translate-y-1/2 absolute flex flex-col font-normal h-[20px] justify-center left-[14.25px] text-[12px] top-[9px] w-[48.367px]" role="link" tabIndex="0">
-          <p className="cursor-pointer leading-[19.2px]">採用情報</p>
+          <p className="cursor-pointer leading-[19.2px]">{content.footer.nav.recruitment}</p>
         </div>
       </a>
     </div>
@@ -13424,7 +13051,7 @@ function H3WidgetTitle() {
   return (
     <div className="content-stretch flex flex-col items-start pb-[9px] relative shrink-0 w-full" data-name="h3.widget-title">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[15px] whitespace-nowrap">
-        <p className="leading-[24px]">ハヤパスについて</p>
+        <p className="leading-[24px]">{content.footer.nav.resourcesTitle}</p>
       </div>
       <div className="absolute bg-[#333] bottom-0 h-px left-0 max-w-[160px] right-0" data-name="::after" />
     </div>
@@ -13436,7 +13063,7 @@ function LiMenuItem() {
     <div className="h-[17.38px] relative shrink-0 w-full" data-name="li#menu-item-97">
       <div className="absolute content-stretch flex items-start left-[12px] top-[-1px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[12px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px]">機能一覧</p>
+          <p className="cursor-pointer leading-[17.38px]">{content.footer.nav.menuItems[0]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[8.69px] w-[6.581px]">
@@ -13451,9 +13078,7 @@ function LiMenuItem7() {
     <div className="h-[17.38px] relative shrink-0 w-full" data-name="li#menu-item-324">
       <div className="absolute content-stretch flex items-start left-[12px] top-[-1px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            料金プラン
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.menuItems[1]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[8.69px] w-[6.581px]">
@@ -13468,9 +13093,7 @@ function LiMenuItem1() {
     <div className="h-[17.38px] relative shrink-0 w-full" data-name="li#menu-item-99">
       <div className="absolute content-stretch flex items-start left-[12px] top-[-1px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            導入事例
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.menuItems[2]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[8.69px] w-[6.581px]">
@@ -13485,9 +13108,7 @@ function LiMenuItem8() {
     <div className="h-[17.38px] relative shrink-0 w-full" data-name="li#menu-item-325">
       <div className="absolute content-stretch flex items-start left-[12px] top-[-1px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            開発秘話
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.menuItems[3]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[8.69px] w-[6.581px]">
@@ -13502,9 +13123,7 @@ function LiMenuItem9() {
     <div className="h-[17.38px] relative shrink-0 w-full" data-name="li#menu-item-326">
       <div className="absolute content-stretch flex items-start left-[12px] top-[-1px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            よくある質問
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.menuItems[3]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[8.69px] w-[6.581px]">
@@ -13519,9 +13138,7 @@ function LiMenuItem10() {
     <div className="h-[17.38px] relative shrink-0 w-full" data-name="li#menu-item-327">
       <div className="absolute content-stretch flex items-start left-[12px] top-[-1px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            お知らせ
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.blog.sectionTitle}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[8.69px] w-[6.581px]">
@@ -13536,9 +13153,7 @@ function LiMenuItem11() {
     <div className="h-[17.38px] relative shrink-0 w-full" data-name="li#menu-item-1288">
       <div className="absolute content-stretch flex items-start left-[12px] top-[-1px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            お問い合わせ
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.menuItems[4]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[8.69px] w-[6.581px]">
@@ -13553,9 +13168,7 @@ function LiMenuItem12() {
     <div className="h-[17.38px] relative shrink-0 w-full" data-name="li#menu-item-2089">
       <div className="absolute content-stretch flex items-start left-[12px] top-[-1px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            運営会社
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.menuItems[5]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[8.69px] w-[6.581px]">
@@ -13578,9 +13191,7 @@ function UlMenu() {
       <LiMenuItem12 />
       <a className="block cursor-pointer h-[17.38px] relative shrink-0 w-[148px]" href={urls.booking} target="_blank" data-name="Component 17">
         <div className="-translate-y-1/2 absolute flex flex-col font-bold h-[18px] justify-center leading-[0] left-0 text-[#333] text-[0px] text-left top-[calc(50%-0.69px)] w-[48.367px]">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            商談予約
-          </p>
+        <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.cta.contactLink}</p>
         </div>
         <div className="-translate-y-1/2 absolute h-[13px] left-[54.02px] top-1/2 w-[14px]" data-name="::after">
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -13590,9 +13201,7 @@ function UlMenu() {
       </a>
       <a className="block cursor-pointer h-[17.38px] relative shrink-0 w-[148px]" href={urls.login} target="_blank" data-name="Component 17">
         <div className="-translate-y-1/2 absolute flex flex-col font-bold h-[18px] justify-center leading-[0] left-0 text-[#333] text-[0px] text-left top-[calc(50%-0.69px)] w-[48.367px]">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            ログイン
-          </p>
+        <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.menuItems[6]}</p>
         </div>
         <div className="-translate-y-1/2 absolute left-[54.02px] size-[12px] top-1/2" data-name="::after">
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -13633,7 +13242,7 @@ function H3WidgetTitle1() {
   return (
     <div className="content-stretch flex flex-col items-start pb-[9px] relative shrink-0 w-full" data-name="h3.widget-title">
       <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#383838] text-[15px] whitespace-nowrap">
-        <p className="leading-[24px]">メディア</p>
+        <p className="leading-[24px]">{content.footer.nav.mediaTitle}</p>
       </div>
       <div className="absolute bg-[#333] bottom-0 h-px left-0 max-w-[160px] right-0" data-name="::after" />
     </div>
@@ -13645,9 +13254,7 @@ function LiMenuItem27() {
     <div className="h-[17.38px] relative shrink-0 w-full" data-name="li#menu-item-3757">
       <div className="absolute content-stretch flex items-start left-[12px] top-[-1px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            太陽光蓄電池販売動向白書
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.mediaItems[0]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[8.69px] w-[6.581px]">
@@ -13662,9 +13269,7 @@ function LiMenuItem24() {
     <div className="h-[23.38px] relative shrink-0 w-full" data-name="li#menu-item-3736">
       <div className="absolute content-stretch flex items-start left-[12px] top-[5px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            ハヤパスASPデモ体験
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.mediaItems[1]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[14.69px] w-[6.581px]">
@@ -13679,9 +13284,7 @@ function LiMenuItem25() {
     <div className="h-[23.37px] relative shrink-0 w-full" data-name="li#menu-item-3740">
       <div className="absolute content-stretch flex items-start left-[12px] top-[4.99px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            ハヤパスBizデモ体験
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.mediaItems[2]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[14.68px] w-[6.581px]">
@@ -13696,9 +13299,7 @@ function LiMenuItem26() {
     <div className="h-[23.38px] relative shrink-0 w-full" data-name="li#menu-item-3742">
       <div className="absolute content-stretch flex items-start left-[12px] top-[5px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            ハヤパスEVデモ体験
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.mediaItems[3]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[14.69px] w-[6.581px]">
@@ -13713,15 +13314,9 @@ function LiMenuItem41() {
     <div className="h-[52.13px] relative shrink-0 w-full" data-name="li#menu-item-11966">
       <div className="absolute content-stretch flex items-start left-[12px] top-[-1.13px]" data-name="Component 26">
         <a className="cursor-pointer flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="leading-[17.38px] mb-0 text-[12px]" role="link" tabIndex="0">
-            ハヤパスコーポレートPP
-          </p>
-          <p className="leading-[17.38px] mb-0 text-[12px]" role="link" tabIndex="0">
-            A・オフサイトフィジカルP
-          </p>
-          <p className="leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            PA（複数拠点対応）
-          </p>
+          <p className="leading-[17.38px] mb-0 text-[12px]" role="link" tabIndex="0">{content.footer.nav.mediaItems[0]}</p>
+          <p className="leading-[17.38px] mb-0 text-[12px]" role="link" tabIndex="0">{content.footer.nav.mediaItems[1]}</p>
+          <p className="leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.mediaItems[2]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[8.69px] w-[6.581px]">
@@ -13736,9 +13331,7 @@ function LiMenuItem6() {
     <div className="h-[23.38px] relative shrink-0 w-full" data-name="li#menu-item-323">
       <div className="absolute content-stretch flex items-start left-[12px] top-[5px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            ハヤパスBlog
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.mediaItems[0]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[14.69px] w-[6.581px]">
@@ -13753,9 +13346,7 @@ function LiMenuItem34() {
     <div className="h-[23.37px] relative shrink-0 w-full" data-name="li#menu-item-5634">
       <div className="absolute content-stretch flex items-start left-[12px] top-[4.99px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            ハヤパスInstagram
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.mediaItems[2]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[14.68px] w-[6.581px]">
@@ -13770,9 +13361,7 @@ function LiMenuItem2() {
     <div className="h-[23.38px] relative shrink-0 w-full" data-name="li#menu-item-101">
       <div className="absolute content-stretch flex items-start left-[12px] top-[5px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            公式Youtubeチャンネル
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.mediaItems[3]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[14.69px] w-[6.581px]">
@@ -13787,9 +13376,7 @@ function LiMenuItem3() {
     <div className="h-[23.37px] relative shrink-0 w-full" data-name="li#menu-item-102">
       <div className="absolute content-stretch flex items-start left-[12px] top-[4.99px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            人気Youtuber対談動画
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.mediaItems[1]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[14.68px] w-[6.581px]">
@@ -13804,12 +13391,8 @@ function LiMenuItem30() {
     <div className="h-[34.75px] relative shrink-0 w-full" data-name="li#menu-item-3763">
       <div className="absolute content-stretch flex items-start left-[12px] top-[-1px]" data-name="Component 26">
         <a className="cursor-pointer flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="leading-[17.38px] mb-0 text-[12px]" role="link" tabIndex="0">
-            壁面太陽光発電量 推計デモ
-          </p>
-          <p className="leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            （地域単位）
-          </p>
+          <p className="leading-[17.38px] mb-0 text-[12px]" role="link" tabIndex="0">{content.footer.nav.mediaItems[0]}</p>
+          <p className="leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.mediaItems[1]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[8.69px] w-[6.581px]">
@@ -13824,12 +13407,8 @@ function LiMenuItem31() {
     <div className="h-[34.75px] relative shrink-0 w-full" data-name="li#menu-item-3764">
       <div className="absolute content-stretch flex items-start left-[12px] top-[-1px]" data-name="Component 26">
         <a className="cursor-pointer flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="leading-[17.38px] mb-0 text-[12px]" role="link" tabIndex="0">
-            壁面太陽光発電量 推計デモ
-          </p>
-          <p className="leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            （ビル単位）
-          </p>
+          <p className="leading-[17.38px] mb-0 text-[12px]" role="link" tabIndex="0">{content.footer.nav.mediaItems[0]}</p>
+          <p className="leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.mediaItems[1]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[8.69px] w-[6.581px]">
@@ -13844,15 +13423,9 @@ function LiMenuItem32() {
     <div className="h-[52.13px] relative shrink-0 w-full" data-name="li#menu-item-3959">
       <div className="absolute content-stretch flex items-start left-[12px] top-[-1.13px]" data-name="Component 26">
         <a className="cursor-pointer flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="leading-[17.38px] mb-0 text-[12px]" role="link" tabIndex="0">
-            無料シミュレーション相談
-          </p>
-          <p className="leading-[17.38px] mb-0 text-[12px]" role="link" tabIndex="0">
-            （太陽光・蓄電池購入検討
-          </p>
-          <p className="leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            客向け）
-          </p>
+          <p className="leading-[17.38px] mb-0 text-[12px]" role="link" tabIndex="0">{content.footer.nav.mediaItems[0]}</p>
+          <p className="leading-[17.38px] mb-0 text-[12px]" role="link" tabIndex="0">{content.footer.nav.mediaItems[1]}</p>
+          <p className="leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.mediaItems[2]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[8.69px] w-[6.581px]">
@@ -13926,9 +13499,7 @@ function LiMenuItem13() {
     <div className="h-[17.38px] relative shrink-0 w-full" data-name="li#menu-item-2189">
       <div className="absolute content-stretch flex items-start left-[12px] top-[-1px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            資料一覧
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.resourceItems[0]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[8.69px] w-[6.581px]">
@@ -13943,9 +13514,7 @@ function LiMenuItem28() {
     <div className="h-[23.38px] relative shrink-0 w-full" data-name="li#menu-item-3759">
       <div className="absolute content-stretch flex items-start left-[12px] top-[5px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            経済効果シミュレーション保証
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.resourceItems[1]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[14.69px] w-[6.581px]">
@@ -13960,9 +13529,7 @@ function LiMenuItem14() {
     <div className="h-[23.37px] relative shrink-0 w-full" data-name="li#menu-item-2190">
       <div className="absolute content-stretch flex items-start left-[12px] top-[4.99px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            ハヤパスASP（住宅用）
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.resourceItems[0]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[14.68px] w-[6.581px]">
@@ -13977,9 +13544,7 @@ function LiMenuItem16() {
     <div className="h-[23.38px] relative shrink-0 w-full" data-name="li#menu-item-2192">
       <div className="absolute content-stretch flex items-start left-[12px] top-[5px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            ハヤパスBiz（産業用）
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.resourceItems[1]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[14.69px] w-[6.581px]">
@@ -13994,12 +13559,8 @@ function LiMenuItem36() {
     <div className="h-[34.75px] relative shrink-0 w-full" data-name="li#menu-item-10468">
       <div className="absolute content-stretch flex items-start left-[12px] top-[-1px]" data-name="Component 26">
         <a className="cursor-pointer flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="leading-[17.38px] mb-0 text-[12px]" role="link" tabIndex="0">
-            ハヤパスオフサイトPPA（複数需要施設・
-          </p>
-          <p className="leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            複数発電所対応）
-          </p>
+          <p className="leading-[17.38px] mb-0 text-[12px]" role="link" tabIndex="0">{content.footer.nav.resourceItems[2]}</p>
+          <p className="leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.resourceItems[3]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[8.69px] w-[6.581px]">
@@ -14014,9 +13575,7 @@ function LiMenuItem15() {
     <div className="h-[23.38px] relative shrink-0 w-full" data-name="li#menu-item-2191">
       <div className="absolute content-stretch flex items-start left-[12px] top-[5px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            ハヤパスEV・V2H（EV用）
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.resourceItems[1]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[14.69px] w-[6.581px]">
@@ -14031,12 +13590,8 @@ function LiMenuItem40() {
     <div className="h-[34.75px] relative shrink-0 w-full" data-name="li#menu-item-10472">
       <div className="absolute content-stretch flex items-start left-[12px] top-[-1px]" data-name="Component 26">
         <a className="cursor-pointer flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="leading-[17.38px] mb-0 text-[12px]" role="link" tabIndex="0">
-            ハヤパス法人フリートEV（複数台法人EV＋
-          </p>
-          <p className="leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            充電器経済効果シミュレーター）
-          </p>
+          <p className="leading-[17.38px] mb-0 text-[12px]" role="link" tabIndex="0">{content.footer.nav.resourceItems[2]}</p>
+          <p className="leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.resourceItems[3]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[8.69px] w-[6.581px]">
@@ -14051,12 +13606,8 @@ function LiMenuItem38() {
     <div className="h-[34.75px] relative shrink-0 w-full" data-name="li#menu-item-10470">
       <div className="absolute content-stretch flex items-start left-[12px] top-[-1px]" data-name="Component 26">
         <a className="cursor-pointer flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="leading-[17.38px] mb-0 text-[12px]" role="link" tabIndex="0">
-            ハヤパスBPO（設計代行・試算代行・補助
-          </p>
-          <p className="leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            金申請書作成代行）
-          </p>
+          <p className="leading-[17.38px] mb-0 text-[12px]" role="link" tabIndex="0">{content.footer.nav.resourceItems[0]}</p>
+          <p className="leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.resourceItems[1]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[8.69px] w-[6.581px]">
@@ -14071,12 +13622,8 @@ function LiMenuItem42() {
     <div className="h-[34.75px] relative shrink-0 w-full" data-name="li#menu-item-11968">
       <div className="absolute content-stretch flex items-start left-[12px] top-[-1px]" data-name="Component 26">
         <a className="cursor-pointer flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="leading-[17.38px] mb-0 text-[12px]" role="link" tabIndex="0">
-            ハヤパスコーポレートPPA・オフサイト
-          </p>
-          <p className="leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            フィジカルPPA（複数拠点対応）
-          </p>
+          <p className="leading-[17.38px] mb-0 text-[12px]" role="link" tabIndex="0">{content.footer.nav.resourceItems[2]}</p>
+          <p className="leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.resourceItems[3]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[8.69px] w-[6.581px]">
@@ -14091,9 +13638,7 @@ function LiMenuItem39() {
     <div className="h-[23.38px] relative shrink-0 w-full" data-name="li#menu-item-10471">
       <div className="absolute content-stretch flex items-start left-[12px] top-[5px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            地方自治体向け再エネシミュレーション代行
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.resourceItems[0]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[14.69px] w-[6.581px]">
@@ -14108,9 +13653,7 @@ function LiMenuItem18() {
     <div className="h-[23.37px] relative shrink-0 w-full" data-name="li#menu-item-2194">
       <div className="absolute content-stretch flex items-start left-[12px] top-[4.99px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            ハヤパスAPI（独自シミュレーター開発）
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.resourceItems[1]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[14.68px] w-[6.581px]">
@@ -14125,9 +13668,7 @@ function LiMenuItem29() {
     <div className="h-[23.38px] relative shrink-0 w-full" data-name="li#menu-item-3761">
       <div className="absolute content-stretch flex items-start left-[12px] top-[5px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            壁面太陽光シミュレーション代行
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.resourceItems[2]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[14.69px] w-[6.581px]">
@@ -14142,9 +13683,7 @@ function LiMenuItem17() {
     <div className="h-[23.37px] relative shrink-0 w-full" data-name="li#menu-item-2193">
       <div className="absolute content-stretch flex items-start left-[12px] top-[4.99px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            ハヤパス稟議書テンプレート
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.resourceItems[3]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[14.68px] w-[6.581px]">
@@ -14159,9 +13698,7 @@ function LiMenuItem21() {
     <div className="h-[23.38px] relative shrink-0 w-full" data-name="li#menu-item-2197">
       <div className="absolute content-stretch flex items-start left-[12px] top-[5px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            ハヤパスAPI（REST API）サービス資料
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.resourceItems[0]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[14.69px] w-[6.581px]">
@@ -14176,9 +13713,7 @@ function LiMenuItem20() {
     <div className="h-[23.37px] relative shrink-0 w-full" data-name="li#menu-item-2196">
       <div className="absolute content-stretch flex items-start left-[12px] top-[4.99px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            ハヤパスAPI 仕様書
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.resourceItems[1]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[14.68px] w-[6.581px]">
@@ -14193,9 +13728,7 @@ function LiMenuItem37() {
     <div className="h-[23.38px] relative shrink-0 w-full" data-name="li#menu-item-10469">
       <div className="absolute content-stretch flex items-start left-[12px] top-[5px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            市場連動型電気料金プラン対応API
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.resourceItems[2]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[14.69px] w-[6.581px]">
@@ -14210,9 +13743,7 @@ function LiMenuItem19() {
     <div className="h-[23.37px] relative shrink-0 w-full" data-name="li#menu-item-2195">
       <div className="absolute content-stretch flex items-start left-[12px] top-[4.99px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            Webシミュレータ丸投げパック
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.resourceItems[3]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[14.68px] w-[6.581px]">
@@ -14227,9 +13758,7 @@ function LiMenuItem23() {
     <div className="h-[23.38px] relative shrink-0 w-full" data-name="li#menu-item-2199">
       <div className="absolute content-stretch flex items-start left-[12px] top-[5px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            ハヤパスAI Sense
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.resourceItems[0]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[14.69px] w-[6.581px]">
@@ -14244,9 +13773,7 @@ function LiMenuItem22() {
     <div className="h-[23.37px] relative shrink-0 w-full" data-name="li#menu-item-2198">
       <div className="absolute content-stretch flex items-start left-[12px] top-[4.99px]" data-name="Component 26">
         <a className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#333] text-[0px] whitespace-nowrap" href={urls.footerFeature} target="_blank">
-          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">
-            制度TRACKER
-          </p>
+          <p className="cursor-pointer leading-[17.38px] text-[12px]" role="link" tabIndex="0">{content.footer.nav.resourceItems[1]}</p>
         </a>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[#383838] text-[10px] top-[14.68px] w-[6.581px]">
@@ -14304,9 +13831,7 @@ function LiMenuItem4() {
     <div className="h-[17.38px] relative shrink-0 w-[113.17px]" data-name="li#menu-item-106">
       <div className="absolute content-stretch flex items-start left-[12px] top-[-1px]" data-name="Component 26">
         <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[0px] text-white whitespace-nowrap">
-          <a className="block cursor-pointer leading-[17.38px] text-[12px]" href={urls.termsOfServiceSaaS} target="_blank">
-            利用規約（SaaS）
-          </a>
+          <a className="block cursor-pointer leading-[17.38px] text-[12px]" href={urls.terms} target="_blank">{content.footer.nav.legalItems[0]}</a>
         </div>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[10px] text-white top-[8.69px] w-[6.581px]">
@@ -14321,9 +13846,7 @@ function LiMenuItem33() {
     <div className="h-[17.38px] relative shrink-0 w-[103.67px]" data-name="li#menu-item-5129">
       <div className="absolute content-stretch flex items-start left-[12px] top-[-1px]" data-name="Component 26">
         <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[0px] text-white whitespace-nowrap">
-          <a className="block cursor-pointer leading-[17.38px] text-[12px]" href={urls.termsOfServiceAPI} target="_blank">
-            利用規約（API）
-          </a>
+          <a className="block cursor-pointer leading-[17.38px] text-[12px]" href={urls.terms} target="_blank">{content.footer.nav.legalItems[0]}</a>
         </div>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[10px] text-white top-[8.69px] w-[6.581px]">
@@ -14338,9 +13861,7 @@ function LiMenuItem35() {
     <div className="h-[17.38px] relative shrink-0 w-[158.78px]" data-name="li#menu-item-5828">
       <div className="absolute content-stretch flex items-start left-[12px] top-[-1px]" data-name="Component 26">
         <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[0px] text-white whitespace-nowrap">
-          <a className="block cursor-pointer leading-[17.38px] text-[12px]" href={urls.termsOfServiceBPO} target="_blank">
-            利用規約（BPO・BPaaS）
-          </a>
+          <a className="block cursor-pointer leading-[17.38px] text-[12px]" href={urls.terms} target="_blank">{content.footer.nav.legalItems[0]}</a>
         </div>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[10px] text-white top-[8.69px] w-[6.581px]">
@@ -14355,9 +13876,7 @@ function LiMenuItem5() {
     <div className="h-[17.38px] relative shrink-0 w-[120.02px]" data-name="li#menu-item-107">
       <div className="absolute content-stretch flex items-start left-[12px] top-[-1px]" data-name="Component 26">
         <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[0px] text-white whitespace-nowrap">
-          <a className="block cursor-pointer leading-[17.38px] text-[12px]" href={urls.privacyPolicy} target="_blank">
-            個人情報の取り扱い
-          </a>
+          <a className="block cursor-pointer leading-[17.38px] text-[12px]" href={urls.privacyPolicy} target="_blank">{content.footer.nav.legalItems[1]}</a>
         </div>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[17.38px] justify-center leading-[0] left-0 not-italic text-[10px] text-white top-[8.69px] w-[6.581px]">
